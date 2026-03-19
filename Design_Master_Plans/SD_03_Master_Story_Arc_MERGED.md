@@ -9,7 +9,7 @@
 - Endings confirmed at **three** (Guided Dissolution, Override, Severance Complete). Story Detail's "Integration/Ascension" ending reviewed and rejected at launch — reserved as potential expansion content. "Sacrificial Silence" folded into Severance Complete. "Wild Arcana" content redistributed into Severance Complete's consequences. *(Decided v2.1)*
 - Atmospheric writing, set-pieces, and supplemental quests from Story Detail incorporated into SD_03's formal structure
 
-> ⚠️ **DESIGNER FLAG — ACT I FINALE:** Story Detail uses a "Deepwood Corruption" crisis as the Act I climax (multi-faction convergence, four resolution options). SD_03 uses "Fracture Point" (Battle of North Wall + Maren recruitment). This merge retains "Fracture Point" as the quest title and Maren's recruitment as the key beat, but incorporates the Story Detail's four-resolution crisis structure. If you prefer the Deepwood as the specific location over North Wall, that's a quick revision — let me know.
+> ✅ **CANONICAL — ACT I FINALE:** "Fracture Point" (North Wall defense, Hollowford) is the confirmed Act I climax. Four-resolution crisis structure retained from Story Detail merge. Deepwood Corruption remains an Act II dungeon zone per SD_08 and Playable Area Detail.
 
 ---
 
@@ -238,7 +238,7 @@ The vision ends. The Echo: *"That was... me. Before. I need to remember more. Yo
 
 **Part 3 — "Aftermath"**
 
-The settlement is evacuated with casualties — the player cannot save everyone, and the game doesn't pretend otherwise. The corruption zone is established as a persistent world feature: it exists on the map, creatures spawn there, and it slowly expands if not addressed later.
+The settlement is evacuated with casualties — the player cannot save everyone, and the game doesn't pretend otherwise. The corruption zone is established as a persistent world feature: it exists on the map, creatures spawn there, and it slowly expands if not addressed later. Minor localized corruption outbreaks are already appearing across the Vale in this period — smaller zones affecting settlements, roads, and patrol routes ahead of the major Thornveil Undercroft event, and providing the immediate context for incidents like Vanguard squads becoming isolated behind corrupted terrain.
 
 **Completion Reward:** The main quest "The Fourth Voice" activates. The player should be level 8–10.
 
@@ -621,7 +621,7 @@ The player alternates between above and below — the descent is interrupted by 
 
 **Mission: "Chain of Command" (Vanguard resolution)**
 
-Commander Hale has gone too far — ordered the arrest of Verdant Flame researchers and Reaver-sympathetic refugees. Kael (if companion) confronts Hale directly. The player mediates.
+Commander Hale has gone too far — ordered the arrest of Verdant Flame researchers and Reaver-sympathetic refugees. This is Stage 2 of Hale's crackdown; Stage 1 was his targeted arrest order against named dissidents (Aelira Wynnroot or Elder Thorn) during Mid Act II — see Companion Design Document, Kael Quest 2. Kael (if companion) confronts Hale directly. The player mediates.
 
 Outcomes:
 - Kael defies orders, Hale stands down (high Vanguard reputation + Kael loyalty required). The Vanguard reforms under Kael's moderated leadership.
@@ -736,13 +736,13 @@ The objective is not to destroy the Consciousness. It's to reach the Heart's cen
 
 **Phase 4 — The Choice**
 
-The player reaches the console. The Scepter interfaces. The Heart responds. Four pathways open — each representing a fundamental answer to the question: *What does this world deserve?*
+The player reaches the console. The Scepter interfaces. The Heart responds. Three pathways open — each representing a fundamental answer to the question: *What does this world deserve?*
 
 ---
 
-# SECTION 6: THE FOUR ENDINGS
+# SECTION 6: THE THREE ENDINGS
 
-> ⚠️ **DESIGNER FLAG:** This merge proposes four endings. Confirm this structure, or reduce back to SD_03's original three by cutting Ending D (Integration). Ending D's philosophical territory is distinct from the other three and earns its place, but it requires the most additional design work.
+> ✅ **RESOLVED:** Three endings confirmed for launch. Ending D (Integration) extracted to SD_03_Appendix_Ending_D_Integration.md.
 
 ## 6.1 Ending A — Guided Dissolution
 *"Let it end. But let it end gently."*
@@ -821,39 +821,13 @@ The player reaches the console. The Scepter interfaces. The Heart responds. Four
 
 **Tone:** Devastating. Honest. The hardest ending, the most principled ending, and the ending the Firstborn intended. The world survives. It will never be the same. Whether that's tragedy or liberation depends on who you ask — and the game doesn't answer for you.
 
-## 6.4 Ending D — Integration
-*"Neither warden nor tool. Something new."*
-
-**Requirements:** Willingness to accept the Consciousness's offer during Phase 2 dialogue. Player must have chosen to deeply engage with the Consciousness's arguments rather than reject them. Not available to all players — requires specific dialogue path.
-
-> ⚠️ **DESIGNER FLAG:** This ending requires the most unique endgame content (integration sequence, a transformed final cutscene, different epilogue voice). Confirm before building. If cut, the Integration ending's philosophical content can be preserved as a "false choice" — an option the Consciousness offers that the player can refuse, deepening the final encounter without requiring a separate ending.
-
-**Choice:** Accept full integration with the Consuming Consciousness. Not domination — genuine merger. The player's human perspective, doubt, and experience entering the Consciousness; the Consciousness's power and reach entering the player.
-
-**The Scepter's Function:** Not to override or suppress — to bridge. The Scepter becomes the conduit for a two-way merger, translating between human consciousness and the Firstborn construct.
-
-**Immediate Effects:**
-- The Consciousness doesn't fight this choice. It has wanted to understand, not just optimize. A human perspective — genuine, embodied, mortal — entering its architecture changes it at a fundamental level.
-- The Echo: *"This is what I feared. And what I hoped. You become something I can no longer follow. I think... I think that's right."* The Echo dissolves into the merger — the doubt finally reuniting with the whole.
-- The player's body transforms — not destroyed, but altered. Translucent in places. Luminous. Still recognizable. Still themselves. But vast.
-
-**World Consequences:**
-- The Consuming Consciousness is no longer the same construct it was. The player's perspective — their memories, their relationships, their uncertainty — becomes part of its processing. It doesn't optimize anymore. It considers. It questions.
-- The lattice stabilizes under the merged intelligence's guidance. The decommissioning continues — but slowly, deliberately, with awareness of what each node means to the surface above it.
-- NPCs who knew the player react with a mix of grief, awe, and unease. The companions each find their own way to make peace with what happened. Some do. Some don't.
-- The merged intelligence is present — in dreams, in lattice resonances, in moments of magical intensity. Not a god. Not a ruler. Something that watches and occasionally reaches back.
-
-**Cost:** The player as they were is gone. The relationships, the memories, the physical life — retained, but transformed beyond any normal human experience. Companions mourn what was lost even as they witness what was gained. The merged intelligence is not the player anymore. It is something that contains the player.
-
-**Tone:** Strange. Transfiguring. Not quite tragic, not quite triumphant. The most alien ending, and the one that raises the most questions about what consciousness, identity, and humanity mean. The world doesn't know how to feel about what the player became. Neither does the player.
-
 ---
 
 # SECTION 7: EPILOGUE STRUCTURE
 
-## 7.1 Four-Part Epilogue (All Endings)
+## 7.1 Four-Part Epilogue (All Endings — A, B, and C)
 
-Each ending concludes with a four-part narrated epilogue. For Endings A and B, the Echo voices the narration (it remains in some form). For Ending C, an unnamed narrator speaks (the Echo is gone). For Ending D, the merged intelligence narrates — recognizably the player's voice, but layered.
+Each ending concludes with a four-part narrated epilogue. For Endings A and B, the Echo voices the narration (it remains in some form). For Ending C, an unnamed narrator speaks (the Echo is gone).
 
 **Part 1: Immediate Aftermath (30 seconds)**
 - The battlefield/Heart after the choice
@@ -877,7 +851,6 @@ Each ending concludes with a four-part narrated epilogue. For Endings A and B, t
   - *Ending A:* A lattice node, still glowing faintly, surrounded by new growth
   - *Ending B:* The Scepter's display chamber in a rebuilt Hollowford civic hall
   - *Ending C:* An open field where a corruption zone used to be — wild, alive, unpredictable
-  - *Ending D:* A place the player loved — empty now, but warm with a faint arcane light
 - The elder begins: *"It began with a prison convoy..."*
 - Credits roll.
 
@@ -1005,3 +978,7 @@ The player should learn the following truths in this order. No truth should be r
 | 8 | Erevos volunteered as the core. The Echo is Erevos's deliberately separated doubt. | Act II, Ashenveil Archive Level 5 |
 | 9 | The Scepter can override, reprogram, accelerate, or bridge the protocol | Act II, Ashenveil Archive Level 6 |
 | 10 | The full cost of each ending | Act III, The Heart — player decides with full information |
+
+---
+
+*Canonical: Four-ending structure confirmed (Endings A–D). Act I finale location confirmed as North Wall ("Fracture Point"). No open structural decisions remaining in this document.*

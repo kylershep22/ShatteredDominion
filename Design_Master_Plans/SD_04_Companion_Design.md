@@ -141,7 +141,7 @@ At the Heart of the Lattice, Kael's input is the voice of practical compassion: 
 ## 2.5 Personal Quest Arc: "The Weight of Command"
 
 **Quest 1: "Brothers in Arms" (Mid Act I)**
-Kael learns that his former squad — the men and women he trained with — are trapped behind a corruption zone in the northern Vale. The Vanguard has written them off (insufficient resources for a rescue). Kael wants to go anyway. This is personal, not strategic, and he knows it.
+Kael learns that his former squad — the men and women he trained with — are trapped behind a localized corruption outbreak in the northern Vale — one of several smaller zones that preceded the Thornveil Undercroft event. The Vanguard has written them off (insufficient resources for a rescue). Kael wants to go anyway. This is personal, not strategic, and he knows it.
 
 The player can:
 - Join the rescue (combat-heavy, risky, but successful). Kael's squad is recovered — some injured, one dead. Kael grieves the dead soldier privately. The survivors become minor NPCs at the stronghold.
@@ -153,6 +153,8 @@ Hale issues the order that pushes Kael to his limit — a direct command to arre
 
 The player can:
 - Help Kael refuse the order openly (high risk — Kael is relieved of command, but his soldiers choose to follow him over Hale). This triggers the Act III mission "Chain of Command" from a position of strength.
+
+> **Continuity Note:** Kael's Quest 2 is Stage 1 of Hale's crackdown — a targeted arrest order against named dissidents (Aelira Wynnroot or Elder Thorn). "Chain of Command" in Act III is Stage 2 — a broader mass arrest of Verdant Flame researchers and Reaver-sympathetic refugees as the political crisis escalates. The two events are sequential, not duplicates. Quest 2 determines the position of strength (or weakness) from which Kael enters the Act III confrontation.
 - Help Kael delay or subvert the order quietly (moderate risk — buys time, but the confrontation with Hale is deferred, not avoided). Kael keeps his rank but knows he's on borrowed time.
 - Encourage Kael to follow the order (devastating relationship hit — Kael does it, hates himself, and the arrested NPCs are harmed. The player must live with the consequences).
 
@@ -271,7 +273,7 @@ She doesn't become happy. She becomes willing to live. That's enough.
 ## 3.5 Personal Quest Arc: "The Weight of Green Fire"
 
 **Quest 1: "What the Wellspring Remembers" (Mid Act I)**
-Aelira asks the player to accompany her to a Wellspring shrine near the Verdantheart border. She wants to "calibrate her readings" — the academic excuse. The real reason: the shrine is near the site where she performed the ritual, and she hasn't been able to face it alone.
+Aelira asks the player to accompany her to a Wellspring shrine near the Wellspring border (the edge of the Verdantheart region). She wants to "calibrate her readings" — the academic excuse. The real reason: the shrine is near the site where she performed the ritual, and she hasn't been able to face it alone.
 
 At the shrine, Aelira communes with the Wellspring (Vaelari Communion system — the player witnesses this regardless of their race). She receives a flood of sensory memory: the night of the Severance, from the Wellspring's perspective. The Wellspring's pain. The chrysalises shattering. The screaming.
 
@@ -287,7 +289,7 @@ The player navigates the fallout:
 - Let it play out (Aelira is formally censured by the Circle — painful but survivable, and she respects the player for not shielding her from consequences she believes she deserves)
 
 **Quest 3: "The Ritual Site" (Late Act II)**
-Aelira asks the player to travel to the actual site of her failed ritual — deep in the Verdantheart border region. It's now a severe corruption zone. Entering it is dangerous, emotionally devastating, and necessary.
+Aelira asks the player to travel to the actual site of her failed ritual — deep in the Wellspring border region (the corrupted edge of the Verdantheart). It's now a severe corruption zone. Entering it is dangerous, emotionally devastating, and necessary.
 
 Inside, the player and Aelira find the remnants of her ritual circle — still partially active, leaking energy. They also find something unexpected: a Firstborn resonance echo trapped in the corruption. It's not the Echo in the player's relic — it's an older fragment, from the Firstborn engineer who designed the Wellspring's lattice connection. The fragment contains a message: *"If you're reading this, the Wellspring link has destabilized. This was always a possibility. The link was experimental. The fault is in the design, not in whoever triggered the failure."*
 
@@ -374,7 +376,7 @@ The player is that opportunity. Not because Maren believes in the cause, but bec
 ## 4.4 Relationship Arc
 
 **Phase 1 — The Transaction (Act I, Late)**
-Maren approaches the player after the Battle of North Wall with a specific framing: "You owe me. I saved your life. I'll collect later." This is her establishing the relationship as transactional — safe, defined, no emotional obligations.
+Maren approaches the player after the Act I crisis ("Fracture Point") with a specific framing: "You owe me. I saved your life. I'll collect later." This is her establishing the relationship as transactional — safe, defined, no emotional obligations.
 
 Early interactions are professional. Maren provides intelligence, identifies threats, and offers tactical advice. She's useful immediately — and she makes sure the player knows it. She's marketing herself as an asset, not offering herself as a friend.
 
@@ -428,6 +430,8 @@ The player helps Maren address the threat:
 - Neutralize the operative (infiltration or combat — the threat is removed but Varek will send another)
 - Confront Varek directly (ties into "The Reckoning of Seven-Knives" in Act III — Maren's personal arc intersects with the faction resolution)
 - Maren runs (if the player offers no support or if the relationship is too weak — Maren disappears. She's a survivor. She'll survive this too. Alone.)
+
+> **Dependency Note:** "Varek's Shadow" resolves Varek's personal blackmail leverage over Maren — it does not conclude the Reaver faction arc. "The Reckoning of Seven-Knives" in Act III addresses Varek's broader power escalation and must be completed regardless of which option is chosen here. Choosing "Confront Varek directly" in this quest limits Act III dialogue options but does not replace the Act III mission — the two events are sequential, not duplicates. If Maren runs, "The Reckoning of Seven-Knives" proceeds without her input, and the player loses their primary leverage point with Varek.
 
 **Resolution:** If Maren stays, she's made a choice she's never made before: to face consequences instead of running. That choice costs her. It also makes her someone she's never been — a person who stays.
 
@@ -535,6 +539,9 @@ At the Heart of the Lattice (if present), Seraphine's input is the voice of temp
 ## 5.5 Personal Quest Arc: "The Empty Throne"
 
 **Quest 1: "The Eltaryn Letters" (Early Act II)**
+
+> **Gating:** Available to any player who has met Seraphine in "The Fourth Voice." Does not require companion recruitment — this quest precedes and contributes to "The Companion in the Dark." If Seraphine becomes an antagonist (Branch B) or coerced ally (Branch C), the letters were still discovered during this quest; her arc's branch determines what she ultimately did with that knowledge. "The Eltaryn Letters" is not gated behind Branch A.
+
 Seraphine asks the player to help her access a sealed section of the Eltaryn archives — family correspondence spanning centuries. She's looking for evidence of the Firstborn connection (before she knows it's a lie). The letters reveal something more immediately personal: her mother, who died when Seraphine was twelve, was planning to abdicate and dissolve House Eltaryn's claim. She believed the divine right was a "comforting fiction that has become a dangerous one."
 
 Seraphine is shaken. Her mother — who she idolized — wanted to end everything Seraphine has spent her life pursuing. The player helps Seraphine process this: does the mother's doubt undermine Seraphine's mission, or validate it?
@@ -548,8 +555,8 @@ The player helps Seraphine navigate the power struggle:
 - Eliminate Harren (Maren offers, if she's a companion — "I know twelve ways to make it look natural." Seraphine's reaction to this offer is character-defining regardless of whether the player accepts)
 - Let Harren win (Seraphine is sidelined within her own faction — painful, but it clarifies her identity crisis: if she's not the Eltaryn heir, losing the political battle doesn't matter)
 
-**Quest 3: "Without the Crown" (Late Act II / Early Act III)**
-After the Ashenveil Archive reveals the full truth, Seraphine (if allied) faces the final question: does she tell her people the truth?
+**Quest 3: "Without the Crown" (Early Act III — after "The Reckoning")**
+In the aftermath of "The Reckoning," once the Archive's revelations have become politically consequential and the faction war has begun, Seraphine (if allied) faces the final question: does she tell her people the truth?
 
 The player accompanies Seraphine to a gathering of Hollow Crown loyalists. She stands before them. And she chooses:
 - **Tell the truth** (high relationship required — the player has given her the courage). She tells them everything. The Firstborn lineage is a myth. The divine right is a fiction. House Eltaryn is a human family, not a chosen bloodline. The reaction is chaos — some leave, some rage, some weep. But a core of loyalists stay. They stay because of Seraphine, not because of the name.
@@ -597,14 +604,14 @@ If Seraphine dissolves House Eltaryn, she enters Act III without a faction, with
 
 ## 6.1 How Companions Respond to Each Ending
 
-Each companion has a preference, but a companion at Deep Bond will follow the player into any ending — disagreeing vocally but trusting the player's judgment.
+Each companion has a preference, but a companion at Deep Bond will follow the player into any ending — disagreeing vocally but trusting the player's judgment. This rule holds for all four endings, including Integration.
 
-| Companion | Preferred Ending | Accepted Ending | Opposed Ending |
-|---|---|---|---|
-| Kael | Override (stability protects people now) | Guided Dissolution (if convinced the transition is manageable) | Severance Complete (too many die immediately — he can't accept it) |
-| Aelira | Guided Dissolution (honors the Firstborn's intent while showing mercy) | Severance Complete (if her guilt has been resolved — she accepts the principle) | Override (repeats the Dominion's mistake — control is not the answer) |
-| Maren | Guided Dissolution (most people survive — pragmatic choice) | Override (stability means opportunity — she can work with that) | Severance Complete (she's a survivor, not a martyr — this kills too many) |
-| Seraphine | Override (if unreformed — she wants control) / Guided Dissolution (if reformed — she's learned to let go) | Varies by arc | Severance Complete (every version of Seraphine opposes this — it destroys everything she knows) |
+| Companion | Preferred Ending | Accepted Ending | Opposed Ending | Integration (Ending D) |
+|---|---|---|---|---|
+| Kael | Override (stability protects people now) | Guided Dissolution (if convinced the transition is manageable) | Severance Complete (too many die immediately — he can't accept it) | Opposed (the player is gone — he can't protect someone who's dissolved into something inhuman) |
+| Aelira | Guided Dissolution (honors the Firstborn's intent while showing mercy) | Severance Complete (if her guilt has been resolved — she accepts the principle) | Override (repeats the Dominion's mistake — control is not the answer) | Accepted (understands transformation — sees it as the Firstborn's bridge made literal. Grieves the person, respects the principle) |
+| Maren | Guided Dissolution (most people survive — pragmatic choice) | Override (stability means opportunity — she can work with that) | Severance Complete (she's a survivor, not a martyr — this kills too many) | Opposed (she finally chose to stay for someone, and they became something she can't reach — this is abandonment wearing a philosophical costume) |
+| Seraphine | Override (if unreformed — she wants control) / Guided Dissolution (if reformed — she's learned to let go) | Varies by arc | Severance Complete (every version of Seraphine opposes this — it destroys everything she knows) | Reformed: Accepted reluctantly (understands sacrifice for something greater than any single life). Unreformed: Opposed (nobody controls the merged intelligence — least of all her) |
 
 ## 6.2 Companion Fate by Ending
 
@@ -628,6 +635,13 @@ Each companion has a preference, but a companion at Deep Bond will follow the pl
 - Maren: Survives. She always survives. If Deep Bond: she's angry, grieving, and present. "You chose this. I chose you. Don't make me regret both."
 - Seraphine (reformed): Shatters. Everything she tried to build, even the honest version, is gone. Rebuilds slowly, painfully. Her history book becomes a memorial.
 - Seraphine (antagonist, defeated): The game doesn't specify. Her fate is left uncertain — "Lady Eltaryn was not among the survivors found in the weeks following the Severance's completion."
+
+**Ending D — Integration:**
+- Kael: Grieves a loss he can't categorize — the player isn't dead, but the person he knew is gone. He builds his reformed Vanguard and visits lattice shrines where the merged intelligence's presence is strongest. He talks to it. He isn't sure it hears him the way it used to. If Deep Bond: he keeps visiting. The conversations get longer. He never stops addressing it as "you."
+- Aelira: The most complex reaction of any companion. She understands what the player did — accepted transformation rather than fighting it. She sees the parallel with her own arc: accepting what the Severance changed rather than trying to undo it. She becomes the foremost scholar studying the merged intelligence, documenting its behavior at lattice resonance sites. Her relationship with it is professional, reverent, and tinged with loss. She never calls it by the player's name. She never stops thinking it.
+- Maren: Devastated in a way she will never admit. She finally chose to stay for someone, and they became something she can't reach. She doesn't leave the Vale. She doesn't build roots. She watches for signs of the player in lattice resonances and tells herself she's gathering intelligence, not grieving. If Deep Bond: she carries the relic shard the player once held. She tells anyone who asks that it's valuable salvage. It isn't.
+- Seraphine (reformed): Processes it politically and personally. Publicly, she frames the Integration as a sacrifice that demands governance worthy of it — and builds that governance with ferocious energy. Privately, she writes letters to the merged intelligence. She doesn't send them. There's nowhere to send them. Her history of the Severant Dominion ends with a chapter titled "The Bridge" that she revises more times than any other.
+- Seraphine (antagonist, defeated): The game doesn't specify. Her reaction to the merged intelligence — an entity beyond any individual's control, born from the person who defeated her — is left to the player's imagination.
 
 ---
 
@@ -662,19 +676,19 @@ For each companion at launch, the following must be created:
 
 **Endings:**
 - [ ] Unique dialogue for each companion at the Heart of the Lattice
-- [ ] Response to each of the three endings (voiced, animated)
-- [ ] Epilogue narration per companion per ending (2–3 sentences, 9 variations per companion = 36 total)
+- [ ] Response to each of the four endings (voiced, animated)
+- [ ] Epilogue narration per companion per ending (2–3 sentences, 12 variations per companion = 48 total)
 
 **Estimated Content Per Companion:**
 - 2,000–4,000 voiced dialogue lines (main quest, personal quests, ambient)
 - 3 personal quests with branching outcomes
 - 2 talent trees (6–8 abilities each)
 - 4–6 branching final states
-- 3 ending-specific epilogues
+- 4 ending-specific epilogues
 
 **Total Companion Content:**
 - 8,000–16,000 voiced dialogue lines across four companions
 - 12 personal quests
 - 8 talent trees
 - 16–24 branching final states
-- 12 ending-specific epilogues (minimum — more with arc variations)
+- 16 ending-specific epilogues (minimum — more with arc variations)
