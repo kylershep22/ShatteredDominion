@@ -604,14 +604,16 @@ If Seraphine dissolves House Eltaryn, she enters Act III without a faction, with
 
 ## 6.1 How Companions Respond to Each Ending
 
-Each companion has a preference, but a companion at Deep Bond will follow the player into any ending — disagreeing vocally but trusting the player's judgment. This rule holds for all four endings, including Integration.
+Each companion has a preference, but a companion at Deep Bond will follow the player into any ending — disagreeing vocally but trusting the player's judgment.
 
-| Companion | Preferred Ending | Accepted Ending | Opposed Ending | Integration (Ending D) |
-|---|---|---|---|---|
-| Kael | Override (stability protects people now) | Guided Dissolution (if convinced the transition is manageable) | Severance Complete (too many die immediately — he can't accept it) | Opposed (the player is gone — he can't protect someone who's dissolved into something inhuman) |
-| Aelira | Guided Dissolution (honors the Firstborn's intent while showing mercy) | Severance Complete (if her guilt has been resolved — she accepts the principle) | Override (repeats the Dominion's mistake — control is not the answer) | Accepted (understands transformation — sees it as the Firstborn's bridge made literal. Grieves the person, respects the principle) |
-| Maren | Guided Dissolution (most people survive — pragmatic choice) | Override (stability means opportunity — she can work with that) | Severance Complete (she's a survivor, not a martyr — this kills too many) | Opposed (she finally chose to stay for someone, and they became something she can't reach — this is abandonment wearing a philosophical costume) |
-| Seraphine | Override (if unreformed — she wants control) / Guided Dissolution (if reformed — she's learned to let go) | Varies by arc | Severance Complete (every version of Seraphine opposes this — it destroys everything she knows) | Reformed: Accepted reluctantly (understands sacrifice for something greater than any single life). Unreformed: Opposed (nobody controls the merged intelligence — least of all her) |
+| Companion | Preferred Ending | Accepted Ending | Opposed Ending |
+|---|---|---|---|
+| Kael | Override (stability protects people now) | Guided Dissolution (if convinced the transition is manageable) | Severance Complete (too many die immediately — he can't accept it) |
+| Aelira | Guided Dissolution (honors the Firstborn's intent while showing mercy) | Severance Complete (if her guilt has been resolved — she accepts the principle) | Override (repeats the Dominion's mistake — control is not the answer) |
+| Maren | Guided Dissolution (most people survive — pragmatic choice) | Override (stability means opportunity — she can work with that) | Severance Complete (she's a survivor, not a martyr — this kills too many) |
+| Seraphine | Override (if unreformed — she wants control) / Guided Dissolution (if reformed — she's learned to let go) | Varies by arc | Severance Complete (every version of Seraphine opposes this — it destroys everything she knows) |
+
+> **Note:** Companion reactions to Ending D (Integration) have been extracted to `SD_03_Appendix_Ending_D_Integration.md` as expansion-only content. Three endings ship at launch.
 
 ## 6.2 Companion Fate by Ending
 
@@ -636,12 +638,29 @@ Each companion has a preference, but a companion at Deep Bond will follow the pl
 - Seraphine (reformed): Shatters. Everything she tried to build, even the honest version, is gone. Rebuilds slowly, painfully. Her history book becomes a memorial.
 - Seraphine (antagonist, defeated): The game doesn't specify. Her fate is left uncertain — "Lady Eltaryn was not among the survivors found in the weeks following the Severance's completion."
 
-**Ending D — Integration:**
-- Kael: Grieves a loss he can't categorize — the player isn't dead, but the person he knew is gone. He builds his reformed Vanguard and visits lattice shrines where the merged intelligence's presence is strongest. He talks to it. He isn't sure it hears him the way it used to. If Deep Bond: he keeps visiting. The conversations get longer. He never stops addressing it as "you."
-- Aelira: The most complex reaction of any companion. She understands what the player did — accepted transformation rather than fighting it. She sees the parallel with her own arc: accepting what the Severance changed rather than trying to undo it. She becomes the foremost scholar studying the merged intelligence, documenting its behavior at lattice resonance sites. Her relationship with it is professional, reverent, and tinged with loss. She never calls it by the player's name. She never stops thinking it.
-- Maren: Devastated in a way she will never admit. She finally chose to stay for someone, and they became something she can't reach. She doesn't leave the Vale. She doesn't build roots. She watches for signs of the player in lattice resonances and tells herself she's gathering intelligence, not grieving. If Deep Bond: she carries the relic shard the player once held. She tells anyone who asks that it's valuable salvage. It isn't.
-- Seraphine (reformed): Processes it politically and personally. Publicly, she frames the Integration as a sacrifice that demands governance worthy of it — and builds that governance with ferocious energy. Privately, she writes letters to the merged intelligence. She doesn't send them. There's nowhere to send them. Her history of the Severant Dominion ends with a chapter titled "The Bridge" that she revises more times than any other.
-- Seraphine (antagonist, defeated): The game doesn't specify. Her reaction to the merged intelligence — an entity beyond any individual's control, born from the person who defeated her — is left to the player's imagination.
+> **Ending D (Integration)** companion fates have been moved to `SD_03_Appendix_Ending_D_Integration.md` — expansion content only.
+
+## 6.3 Companion Reactions to Act III Alignment World States
+
+*Added per SD_08 Section 9.3 revision (v2.0). These are Act III world-state moments — distinct from ending epilogues. They reflect how companions respond to the Vale the player built through faction alignment.*
+
+### Vanguard Alignment
+
+**Kael — The Drakeling Labor Contracts:**
+Kael built the society the player aligned with. He knows what it achieved — the court, the Charter, the militia. He also knows the seams. The Drakeling labor contracts in the Forge District are the thing that keeps him awake. The Vanguard describes them as "formalized employment protection." Elder Keth describes them differently. Kael comes to the player with this specifically: he needs the player to see what the institution they built together is doing to people who were already at the bottom. This is not Kael turning against the Vanguard. This is Kael being the best version of the Vanguard — the version that looks at its own hands and asks what they're holding.
+
+**Aelira — The One Question (Mandatory):**
+Aelira, if she stayed in the party under Vanguard alignment, is operating under magic-suppression restrictions she is barely tolerating. She comes to the player with one specific request that she will only make once: she wants to know if the player knew this would happen to the Vaelari — the residential consolidation, the restrictions — or if they believed the Vanguard's stated intentions about protecting all residents. The player's answer does not change the world state. But it matters to her. *This scene is mandatory, not optional — it fires automatically at the first player visit to Hollowford after Act III alignment is established.*
+
+### Reaver Alignment
+
+**Maren — The Epilogue (Deep Bond):**
+Maren has watched something she didn't expect: the thing she was part of building is actually working, for people it was supposed to work for. She is not sentimental about this. She is also not leaving. She tells the player, in the bluntest terms she can manage: "I've been waiting for the part where it falls apart. It keeps not falling apart. I'm running out of reasons to stay cynical." If the player pushed back on Varek's fragility assessment, Maren already knows. She has her own read: "It'll break eventually. So does everything. At least this one broke something worth breaking first."
+
+### Hollow Crown Alignment
+
+**Seraphine — The Academy:**
+If Seraphine reached her reformed arc under Hollow Crown alignment, the Academy in the former Eltaryn Estate Branch is her explicit project. The player can see her name on the building. The curriculum, the student selection, the institutional structure — these are her contribution to the Vale's future. This is Seraphine's administrative brilliance finally directed at something that isn't self-serving. Whether the access problem (four out of thirty students from non-noble origins) is a failure of intention or a failure of imagination is left to the player to judge.
 
 ---
 
@@ -676,15 +695,15 @@ For each companion at launch, the following must be created:
 
 **Endings:**
 - [ ] Unique dialogue for each companion at the Heart of the Lattice
-- [ ] Response to each of the four endings (voiced, animated)
-- [ ] Epilogue narration per companion per ending (2–3 sentences, 12 variations per companion = 48 total)
+- [ ] Response to each of the three endings (voiced, animated)
+- [ ] Epilogue narration per companion per ending (2–3 sentences, 9 variations per companion = 36 total)
 
 **Estimated Content Per Companion:**
 - 2,000–4,000 voiced dialogue lines (main quest, personal quests, ambient)
 - 3 personal quests with branching outcomes
 - 2 talent trees (6–8 abilities each)
 - 4–6 branching final states
-- 4 ending-specific epilogues
+- 3 ending-specific epilogues
 
 **Total Companion Content:**
 - 8,000–16,000 voiced dialogue lines across four companions

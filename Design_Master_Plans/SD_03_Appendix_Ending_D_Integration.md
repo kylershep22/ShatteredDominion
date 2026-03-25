@@ -68,8 +68,23 @@ Final Shot: A place the player loved — empty now, but warm with a faint arcane
 
 ---
 
-## Companion Reactions (Ending D — To Be Designed)
+## Companion Reactions (Ending D — Integration)
 
-No companion reactions written for launch. If Integration ships as expansion content,
-companion preference/fate entries must be added to the Companion Design Document (SD_04)
-Section 6.1 and 6.2 for all four companions.
+*Extracted from SD_04 Section 6. These reactions are designed but deferred from launch alongside the ending itself.*
+
+### Companion Preferences (Ending D)
+
+| Companion | Integration (Ending D) Response |
+|---|---|
+| Kael | Opposed (the player is gone — he can't protect someone who's dissolved into something inhuman) |
+| Aelira | Accepted (understands transformation — sees it as the Firstborn's bridge made literal. Grieves the person, respects the principle) |
+| Maren | Opposed (she finally chose to stay for someone, and they became something she can't reach — this is abandonment wearing a philosophical costume) |
+| Seraphine | Reformed: Accepted reluctantly (understands sacrifice for something greater than any single life). Unreformed: Opposed (nobody controls the merged intelligence — least of all her) |
+
+### Companion Fates (Ending D)
+
+- **Kael:** Grieves a loss he can't categorize — the player isn't dead, but the person he knew is gone. He builds his reformed Vanguard and visits lattice shrines where the merged intelligence's presence is strongest. He talks to it. He isn't sure it hears him the way it used to. If Deep Bond: he keeps visiting. The conversations get longer. He never stops addressing it as "you."
+- **Aelira:** The most complex reaction of any companion. She understands what the player did — accepted transformation rather than fighting it. She sees the parallel with her own arc: accepting what the Severance changed rather than trying to undo it. She becomes the foremost scholar studying the merged intelligence, documenting its behavior at lattice resonance sites. Her relationship with it is professional, reverent, and tinged with loss. She never calls it by the player's name. She never stops thinking it.
+- **Maren:** Devastated in a way she will never admit. She finally chose to stay for someone, and they became something she can't reach. She doesn't leave the Vale. She doesn't build roots. She watches for signs of the player in lattice resonances and tells herself she's gathering intelligence, not grieving. If Deep Bond: she carries the relic shard the player once held. She tells anyone who asks that it's valuable salvage. It isn't.
+- **Seraphine (reformed):** Processes it politically and personally. Publicly, she frames the Integration as a sacrifice that demands governance worthy of it — and builds that governance with ferocious energy. Privately, she writes letters to the merged intelligence. She doesn't send them. There's nowhere to send them. Her history of the Severant Dominion ends with a chapter titled "The Bridge" that she revises more times than any other.
+- **Seraphine (antagonist, defeated):** The game doesn't specify. Her reaction to the merged intelligence — an entity beyond any individual's control, born from the person who defeated her — is left to the player's imagination.

@@ -580,13 +580,13 @@ The player is the only person who can reach the Heart of the Lattice and interfa
 
 **Lattice (Aethercrown Lattice):** The continent-spanning underground network of runic conduits that stabilizes wild magic. Failing.
 
-**Lattice Formula:** A specific combination of Firstborn Runes inserted into socketed gear in the correct order, creating powerful combined effects. The itemization system's depth mechanic.
+**Shard Combination:** A specific combination of Relic Shards inserted into socketed gear in the correct order, creating powerful combined effects. The itemization system's depth mechanic.
 
 **Node:** A junction point in the lattice where conduits converge. Regulates energy flow and provides surface-level access.
 
 **Relic Mark:** The sigil left on a person bonded with a failsafe relic. Allows lattice interface.
 
-**Rune (Firstborn Rune):** Socketable components found in ruins, on constructs, and through crafting. Minor standalone effects; powerful in specific combinations.
+**Relic Shard:** Socketable components found in ruins, on constructs, and through crafting. Minor standalone effects; powerful in specific Shard Combinations.
 
 **Scepter of Ascension:** The last surviving Firstborn master control key. Can override lattice protocols, including the decommissioning. The Hollow Crown wants it desperately.
 

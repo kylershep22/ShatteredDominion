@@ -52,7 +52,7 @@ The Vale exists in three states that shift across Acts and player choices.
 
 **Conflict State (Act II — automatic on Ashenveil revelation):** Faction tensions overt. Corruption expands. Hollowford shows faction control markers. Player choices begin having visible consequences.
 
-**Resolution State (Act III/IV — branching by alignment):** The Vale looks different depending on the player's Act III alignment. Full details in Section 8.
+**Resolution State (Act III — branching by alignment):** The Vale looks different depending on the player's Act III alignment. Full details in Section 9.3.
 
 ---
 
@@ -577,37 +577,19 @@ Ashenveil revelation triggers Act II. Each faction interprets it according to th
 - Ironwood's Hollow Crown contact exposed to Vanguard: Hollow Crown agents absent from Ironwood; new Vanguard surveillance visible.
 - Transition House invested in: Building visibly expanded on the city map.
 
-## 9.3 Act III — Resolution
+## 9.3 Act III — Resolution (Alignment World States)
 
-Act III alignment reshapes the Vale's default state. Each alignment has a distinct world identity with genuine trade-offs.
+*This section supersedes all previous Act III alignment descriptions. Revised to address four structural problems in the prior version: Verdant Flame dominance through accumulated mechanical and narrative advantages, Vanguard framed as oppression without achievement, Reaver as punishment alignment, and Hollow Crown framed as elegiac loss rather than genuine victory. Each alignment now has a win condition philosophically native to that faction and a cost that feels like logical consequence rather than designer judgment.*
 
----
+### Design Principles (Apply to All Four Alignments)
 
-### VANGUARD ALIGNMENT — The Controlled Vale
+**Win conditions must be exclusive.** Each alignment produces something the other three cannot — not just a different aesthetic, but a genuinely different outcome only achievable through that faction's specific philosophy and methods.
 
-*"Someone has to maintain order."*
+**Costs must be consequential, not atmospheric.** Each alignment's cost should be felt through specific named NPCs and visible world changes, not described in general terms. A player who has a relationship with Lira should feel the Vanguard's housing policy personally. A player who spent time in Grainfell should feel the VF's political vacuum as a specific threat to people they know, not as an abstract institutional concern.
 
-**Hollowford:** Checkpoints at all district entrances. Noble Quarter mansions fully requisitioned. Market Quarter under price controls. Vanguard heraldry on public buildings. Erys Moonwhisper's announcements are now officially sanctioned statements — she reads from a prepared text.
+**No alignment should read as the designer's preferred choice.** All four should feel like genuine player expression. A player who chose Reaver should finish the game and think "that's what I was building toward" — not "I guess I did the chaos run."
 
-**Frontier settlements:** All four have formal Vanguard garrison posts. Roads fully maintained.
-
-**Corruption zones:** Vanguard suppression operations active — not clearing zones but containing them through military force. The zones are stable but not smaller.
-
-**Character:** The Vale is measurably safer. It is also more controlled in ways some NPCs find worse than the alternative. The Waiting Man outside the Garrison has received news. The Patrol soldier's line has changed to something that sounds like policy.
-
----
-
-### REAVER ALIGNMENT — The Open Vale
-
-*"Power belongs to whoever takes it."*
-
-**Hollowford:** Undercity Layer 2 partially visible to surface level. Black market goods appear in the Market Quarter without concealment. Noble Quarter has several properties that have quietly changed hands through shell transactions. The Singer is performing again but the songs are different — older, rougher, Reaver-adjacent.
-
-**Frontier settlements:** All four have Reaver-adjacent merchant presence. Smuggling routes bypass all Vanguard checkpoints.
-
-**Corruption zones:** Reavers are actively harvesting corruption materials. Zones are expanding faster because nobody is managing them — but the player's access to corruption materials significantly improves.
-
-**Character:** The Vale is economically active in ways it wasn't. It is also more dangerous in ways that some NPCs find better than the alternative. The old Ironkin waiting outside the Garrison is gone — news arrived through a Reaver intelligence channel, not an official one.
+**The costs build slowly.** The best costs are implications of the choice that weren't fully visible at the moment of choosing — logical consequences that arrive in Act III rather than punishments delivered immediately.
 
 ---
 
@@ -615,13 +597,122 @@ Act III alignment reshapes the Vale's default state. Each alignment has a distin
 
 *"Let it end gracefully."*
 
-**Hollowford:** Verdant Flame openly present in all districts. Corruption zone edges near the city have visibly receded — golden-green light at zone boundaries is visible from the walls at dawn.
+**What the Player Built**
 
-**Frontier settlements:** Grainfell's corruption-resistant crops distributed. Ironwood's northern edge shows active Verdant Flame grove markers. Brother Fen is in the Grainfell fields.
+The land heals. This is real, not framed — it is the most visibly transformed Vale of the four alignments, and that transformation is earned by what the Verdant Flame is: conservationists who understand the lattice's failure as an ecological event rather than a military or political one.
 
-**Corruption zones:** All zones show measurable reduction. Zone 1 (Ashfield Scar) may be fully cleared if Act II Grainfell quests were completed.
+**Hollowford:** Verdant Flame openly present in all districts. Corruption zone edges near the city have visibly receded — golden-green light at zone boundaries visible from the walls at dawn. The Healer's Sanctuary has expanded into a second building with Verdant Flame collaboration. Sister Vael has more staff than she has ever had. The Market Quarter has reagent herbs available that haven't been seen in the Vale since before the Severance.
 
-**Character:** The Vale is recovering in ways that feel natural. It is slower to develop politically — the Verdant Flame's focus on the land means less attention to the human institutions that are also failing. The Vaelari street performer has returned to the Market Quarter square. The songs are different from both what she sang in Act I and what she might have sung in Reaver alignment. They are new.
+The Singer is performing in the Market Square again. The songs are new — not what she sang in Act I, not Dominion songs. Something that didn't exist before.
+
+**Frontier settlements:** Grainfell's corruption-resistant crops distributed to all four settlements. Brother Fen is in the fields, not at his research station — the work has moved from laboratory to land. Zone 1 (Ashfield Scar) fully cleared if Act II Grainfell quests were completed; the eastern fields are a different color, more green than the season warrants. Ironwood's northern edge shows active Verdant Flame grove markers — the corruption that was threatening the logging operations has been pushed back.
+
+**Corruption zones:** All five zones show measurable reduction. Zone 1 may be fully cleared. Zone 3 (Broken Road) is passable without combat for the first time since the Severance. Zone 5 (Corruption Front) has stabilized — the eastern wall is still present and the Wellspring events are still ongoing, but the daily expansion that characterized Act II has stopped.
+
+**The Vaelari community:** Lira from the refugee camps is no longer in the camps. She is apprenticed to Sister Vael. The Vaelari Cluster has decreased in size not because people left but because they integrated — scattered across districts, employed, present rather than contained. Aelira, if she stayed, is doing the most meaningful work of her life and the player will be able to see it.
+
+**The Act III first-impression beat:** Brother Fen in the field. The fields that color. That is enough.
+
+**What It Cost**
+
+The Verdant Flame had no interest in filling the political vacuum, and they didn't. That was not an oversight — it was a choice consistent with who they are. The land was what mattered. The institutions were someone else's problem.
+
+By Act III, someone else has been filling that vacuum, and the player can see who: Varek Seven-Knives.
+
+The visible consequence:
+
+- Varek's people have a louder presence in Hollowford than they did in Act II. Not threatening — operating. The Undercity's Layer 2 has grown upward; certain Undercity goods are available in surface stalls without concealment.
+- There is no court system. Disputes are being settled by community arbitration, Reaver arbitration, or violence — in roughly that order of frequency, with the ratio shifting toward the first two but not there yet.
+- The currency situation is unstable. Three different exchange rates are being quoted in the Market Quarter depending on who you're buying from. Harren Voss is hedging across all of them, more stressed than the player has ever seen him.
+- Commander Hale has issued a formal statement from Highwinter — long-delayed — that the Vanguard's Vale garrison presence will be reduced. There is no governing body to fill that security role.
+
+**The human cost — specific and felt:** Aldene Root, Grainfell's village elder, has more administrative problems than she can solve. She came to Hollowford twice in Act II to ask the Vanguard for governance support. The Vanguard's reduction means those requests are now going nowhere. She is not angry at the player. She is exhausted, and she asks one question that has no good answer: "Who do I call when the next dispute turns violent and there's no garrison anymore?"
+
+The player who chose Verdant Flame bet on the land over the civilization. The land is recovering. The civilization doesn't have a structure anymore, and the people who cared about the land didn't notice until now. This is not a punishment — it is the logical consequence of the philosophy.
+
+---
+
+### IRONBOUND VANGUARD ALIGNMENT — The Ordered Vale
+
+*"Someone has to maintain order."*
+
+**What the Player Built**
+
+The Vanguard's win condition is the one no other faction can produce: a functional society with visible structural bones. Not beautiful. Not free. Not informed by the best knowledge. But operational in ways that matter to specific people who have been living without operational systems for months.
+
+**Hollowford:**
+
+*The First Legal Institution:* A functioning court system — the first in the Vale since the Severance. It occupies a requisitioned Noble Quarter building. The proceedings are not sophisticated. The judges are former Vanguard officers who are learning law by doing it. But disputes that were being settled with violence are now being settled with process. Harren Voss, who has been hedging across every faction for two acts, has picked a side. He is operating in Vanguard-stabilized markets and he is visibly doing better for it. He does not look like a man who made a political choice — he looks like a man who made a business calculation and it is paying off.
+
+*The Vale Charter:* A legal document giving non-noble human residents of the Vale formal civic standing. It is imperfect — the Vanguard wrote it without significant civilian input, and its provisions reflect Vanguard priorities more than civilian needs. But it exists, and it is the first document since the Dominion's collapse that treats Vale residents as people with legal standing rather than subjects or refugees. Players who speak to specific NPCs in the refugee camps will find that the Drakeling residents are not covered. The Charter is for human residents. This is visible and specific and not explained away.
+
+*The Militia:* Vale-born fighters training alongside Highwinter regiments in the Garrison courtyard. Not impressive — most are farmhands who picked up a weapon six months ago. But they are being trained, and the Vanguard's explicit plan (accessible to players who ask Kael or Hale directly) is to establish a self-sustaining Vale defense force that doesn't depend on Highwinter reinforcement. The Vanguard is trying to make itself unnecessary here. That is not something the Vanguard's critics expected of them.
+
+*Standardized currency:* One exchange rate, enforced by Vanguard checkpoint economics. Prices are stable. Not low — stable. Players who have been watching the Market Quarter's chaos will feel the difference.
+
+*The trade network:* All four frontier settlements connected by maintained roads with guaranteed transit. Travel time between Hollowford and any settlement is predictable for the first time since the Severance. The Vanguard road network is finally doing what it was always supposed to do.
+
+**Frontier settlements:** All four have formal Vanguard garrison posts — small, functional, present. The physical structures are new and clearly Vanguard-built, not locally constructed. They look like administration has arrived. For some NPC residents that is a relief. For others it is a different kind of problem.
+
+**Corruption zones:** Vanguard suppression operations active — not clearing zones but containing them through organized military force. The zones are stable and not expanding. Zone 3 (Broken Road) has been cleared by engineering teams — this is the Vanguard's clearest corruption win, and the road between Hollowford and Ashford is passable again. Zones 1 and 4 are suppressed to their Act II size. Zone 5 (Corruption Front) has a fortified perimeter — the Vanguard has conceded the interior and is holding the line.
+
+**The Act III first-impression beat:** Entering the Market Quarter, Erys Moonwhisper is announcing — as always — but the announcement is different from anything in Acts I or II. She is reading the first public session schedule of the new court. Her voice is flat in a way it wasn't in Act I, alive in a way it wasn't in Act II. She has an opinion about what she is reading. Players who have been paying attention to her for two acts will hear it.
+
+**What It Cost**
+
+The Vanguard's magic-suppression policy did not disappear when they won the Vale's alignment. It became law.
+
+**The Vaelari cost — specific and visible:** The Singer is gone from the Market Quarter. Erys Moonwhisper is present but restricted to officially sanctioned announcements. Lira from the refugee camps has been relocated to a designated Vaelari housing district — the term used in official Vanguard documentation is "residential consolidation." She is not imprisoned. She can move through the city. She cannot live outside the district.
+
+Aelira, if she stayed in the party, is operating under restrictions she is barely tolerating. She comes to the player with one specific request that she will only make once: she wants to know if the player knew this would happen, or if they believed the Vanguard's stated intentions about protecting all residents. The player's answer does not change the world state. But it matters to her.
+
+**The Drakeling cost:** The refugee workshops in the Forge District are now under mandatory labor contracts — a legal framework the Vanguard describes as "formalized employment protection" and that Elder Keth describes as something else entirely in fewer words. The Drakelings are paid. They are not free. The distinction is being debated in the new court and the outcome is not certain.
+
+The player who chose Vanguard built a society. It is functioning. Some of the people inside it are being managed rather than helped. That is not incidental to the Vanguard's philosophy — it is an expression of it. The player knew who they were aligning with. The cost should feel like the logical consequence of that knowledge, not like a surprise.
+
+---
+
+### ASHMAR REAVERS ALIGNMENT — The Liberated Vale
+
+*"Power belongs to whoever takes it."*
+
+**What the Player Built**
+
+The Reaver win condition is political liberation. The old power structures are genuinely, visibly dead — not suppressed, not replaced with new hierarchies, dead. What exists in their place is a collection of communities making their own arrangements, trading and arbitrating on their own terms, with Reaver facilitation for disputes and Reaver intelligence to replace the Vanguard's information monopoly.
+
+This is not chaos. It is a different kind of order — one built from the bottom rather than imposed from the top. It looks messy. It is measurably more just for specific populations who were always at the bottom of the old hierarchies. It is also fragile in ways that the player can see if they're paying attention.
+
+**Hollowford:**
+
+*The political structure:* There is no central governing authority in Hollowford. There is Varek's network, which is not a government and does not present itself as one, but which handles dispute arbitration, information flow, and enforcement of agreements between communities with more effectiveness than the Vanguard ever managed at those specific tasks. Varek is not the leader of Hollowford. He is the person that communities call when they need something resolved, and he shows up. The distinction is not semantic to him.
+
+The Noble Quarter's requisitioned mansions have been occupied — not by faction administrators but by community organizations. One building is a Drakeling community center, the first permanent non-residential Drakeling institution in the Vale. One is the Vaelari gathering space that Lira spent two acts trying to establish from a refugee camp. One is something the locals call the Open Table — a meeting space where settlement representatives come to make agreements without a faction intermediary. It is chaotic, loud, and productive in a way formal governance has never managed to be in the Vale.
+
+*The communities that are winning:* The Drakeling workshops in the Forge District are now the most productive metalworking operation in the Vale. Elder Keth is not a spokesperson anymore — she is a trade partner, negotiating on equal terms with Hollowford's merchant community. The refugee camp has reduced in size not because people were removed but because people left voluntarily, integrating into the settlements they chose rather than being assigned to them.
+
+Lira has done the thing she said she wanted to do in Act I. She runs the Vaelari gathering space in the Noble Quarter. She chose the location deliberately — she told the player, if they ask, that she wanted to be in the building that used to be the most exclusive address in Hollowford. She is not subtle about what she thinks this means.
+
+The Undercity is not a secret anymore. Layer 2 is partly surfaced — the distinction between above and below has blurred. This is not threatening; it is a reshuffling of what is officially permitted versus what is simply present. The goods that were restricted are mostly not restricted anymore, which means they're not as valuable, which means the Reavers have less leverage over them, which is not something Varek is unhappy about. The underground economy functions better when it isn't entirely underground.
+
+**The Singer:** She is performing. The songs are rougher than Act I, older, Reaver-adjacent in cadence — songs about moving and surviving and not asking permission. She performs longer than she used to. She has an audience that wasn't there in Act I.
+
+**Frontier settlements:** All four have Reaver-adjacent merchant presence. No formal garrison — communities are handling their own security arrangements with Reaver arbitration available on request. The travel infrastructure is informal: Reaver tunnel network handles the routes fast travel doesn't cover; roads are maintained because the communities that use them maintain them rather than because a military administration does. It is slightly less reliable than Vanguard roads in bad weather. It is significantly more accessible to people who couldn't use the Vanguard's checkpoints.
+
+**The Act III first-impression beat:** Entering the Noble Quarter, the player sees the Drakeling community center — the heraldic plaques from the requisitioned mansion's previous owners have been left on the exterior wall, not removed. Someone has written something beneath them in Drakeling script. With sufficient relationship standing, Elder Keth translates it for the player. It is not inflammatory. It is a Drakeling phrase that means roughly: "We were here too."
+
+**What It Cost**
+
+The Reaver alignment's liberation is real and its cost is not punishment — it is the logical consequence of dismantling hierarchies without replacing them with robust alternatives.
+
+**The corruption relationship:** The Reavers are harvesting corruption zones rather than managing them the way Vanguard or VF would. This means Zones 2 and 4 are being actively worked — Reaver operations extract corruption materials, which exerts a kind of pressure on those zones that is different from VF purification and different from Vanguard containment. The zones are not expanding the way they would under pure neglect, but they are not stable in a way any conservationist would be comfortable with. Zone 5 (Corruption Front) is the genuine problem: without Vanguard fortification or Verdant Flame Wellspring work, the eastern edge is advancing. Slowly. Visibly. Grainfell's eastern fields are showing the beginning of something that could become Zone 1 all over again.
+
+Brother Fen is still at his research station, not in the fields. He talks to the player if they go to him. He does not accuse. He asks: "How long do you think the harvest approach holds before the zone crosses the grain line?" He has done the calculation. He shows the player the number if they want it. It is not a comfortable number.
+
+**The structural fragility:** The Open Table is working, but it requires constant maintenance. Agreements fall apart. Communities relitigate decisions. Varek's network is holding things together through personal authority and reputation — which means it is holding together as long as Varek is willing and able to hold it together. There is no institution. There is one person who has decided not to walk away yet.
+
+A player who speaks to Varek directly late in Act III gets something the other alignment leaders don't offer: honesty about the fragility. He does not pretend the Liberated Vale is permanent. He says it is better than what was here before, that it might last a generation, and that a generation of people with actual agency is worth the uncertainty about what comes after. The player can agree, push back, or say nothing. His read of the situation does not change.
+
+**Maren's epilogue (Reaver alignment, Deep Bond):** Maren has watched something she didn't expect: the thing she was part of building is actually working, for people it was supposed to work for. She is not sentimental about this. She is also not leaving. She tells the player, in the bluntest terms she can manage: "I've been waiting for the part where it falls apart. It keeps not falling apart. I'm running out of reasons to stay cynical." If the player pushed back on Varek's fragility assessment, Maren already knows. She has her own read: "It'll break eventually. So does everything. At least this one broke something worth breaking first."
 
 ---
 
@@ -629,20 +720,72 @@ Act III alignment reshapes the Vale's default state. Each alignment has a distin
 
 *"Information is the only power that survives catastrophe."*
 
-The Hollow Crown cannot fight corruption. They cannot purify land. They cannot establish military order. What they can do is understand the system well enough to predict where it fails — and act on that knowledge before the failure happens.
+**What the Player Built**
 
-**The Boundary System:**
-Using the combined knowledge from the Ashenveil Archive, the Undercity's Firstborn Deep, and their own archive holdings, the Hollow Crown has identified the specific lattice nodes driving each corruption zone's expansion. They cannot stop the corruption. But they can predict exactly where it will spread next.
+The Hollow Crown's win condition is the one furthest from the present moment — it is the most difficult to sell at Act III because its payoff is structural and long-term, but that is exactly what makes it native to the HC philosophy. The Vanguard builds institutions for now. The VF heals the land now. The Reavers liberate people now. The Hollow Crown is building something that will matter in fifty years, and they are the only faction thinking fifty years ahead.
 
-The visible Act III change is not zones shrinking — it is zone edges being *marked*. Hollow Crown surveyors and House Knights have established perimeter lines using Firstborn cartographic techniques. The corruption inside the line is abandoned and formally accepted as lost. Everything outside the line is being organized, protected, and prepared for the long-term recovery that the other alignments cannot quite plan for because they're too busy responding.
+This is not a consolation prize framed as forward-thinking. It is a genuine win for a player whose expression is: I want to understand the system well enough to outlast it.
 
-**Hollowford:** Eltaryn heraldry on Noble Quarter buildings. Vanguard presence reduced there, replaced by House Knights. The Market Quarter has noble luxury goods reappearing in stalls that were selling survival rations six months ago.
+**Hollowford:**
 
-**Frontier settlements:** Ashford's mine under Hollow Crown administration — the lower level's lattice crystals being systematically extracted and catalogued. Ironwood's Hollow Crown contact now operating openly.
+*The lattice node map:* The Hollow Crown has produced the first comprehensive lattice node map for the Vale — every active node, every failed one, every corruption zone's underlying cause, and a predictive model for how each zone will behave over the next decade under different intervention strategies. It is displayed in the Noble Quarter's converted archive space. Players can view it. The map is being copied and distributed to scholars across the continent. Hollowford is becoming the primary knowledge hub for lattice research — not because it has the most power, but because it has the most information.
 
-**Corruption zones:** Zone edges marked with survey stakes bearing Eltaryn seals. Zone interiors abandoned as formally written-off territory. Everything outside the lines: maintained, documented, governed.
+*The academy:* The first class of students is six months into a curriculum that covers lattice engineering, Firstborn architectural principles, corruption zone management, and civic governance. The curriculum was written by The Archivist and Agent Vesper (from Ashford's lower mine investigation) working together. The space is in the former Eltaryn Estate Branch — deliberately. Seraphine, if she reached her reformed arc, made this her explicit project and put her name on it.
 
-**Character:** The Vale is smaller than it was. What remains is stable, governed, and positioned for eventual recovery in a way the other alignments aren't. Players who chose this alignment feel like they made a hard, adult decision — they accepted losses that the Verdant Flame might have prevented, in exchange for stability that the Vanguard can't quite achieve and legitimacy that the Reavers can't provide. The town crier Erys Moonwhisper is now reading House Eltaryn official announcements. She has more lines than she did under the Vanguard. She sounds like she has an opinion about them.
+The first class is small — thirty students. The composition is: eighteen from noble families, eight from merchant families, four from non-noble origins (two Drakeling, one Vaelari, one human laborer). The distribution is visible and specific. It is not accidental. It is what the Hollow Crown looks like when it is trying to be better than it was and not quite managing it.
+
+*The boundary system and its consequence:* Corruption zone edges are marked with survey stakes bearing Eltaryn seals. Zone interiors are formally written-off as lost territory. This is not framed as loss in HC's own documentation — it is framed as rational triage, accepting acknowledged defeats to protect recoverable territory. The mathematical case for it is solid. But the people whose farms are inside the staked boundaries are not being talked to about the mathematics. They are being told their land is in the permanent loss column by official seal.
+
+Three farmsteads in the Vale have received formal abandonment notices. The families in two of them have complied. The family in the third has not. They are still there, inside the staked boundary, which the Hollow Crown's authority does not quite extend to forcibly removing them. This is a visible, unresolved tension in the world state — the knowledge system works until it meets a human being who refuses to cooperate with the calculation.
+
+*The proto-successor project:* In Ashford's lower mine, lattice crystals are being catalogued and used in a research project that Agent Vesper describes as "preliminary infrastructure modeling." What she means, to players who have completed the lower mine questline and have sufficient HC standing to get a direct answer: they are working on a post-lattice energy system. Not a replacement for the Aethercrown Lattice — that would take centuries. A seed. A proof of concept. Something small enough to power a single settlement, which could become something that powers a region, which could eventually become what civilization needs when the lattice is fully gone.
+
+The HC is the only faction working on what comes after. The Vanguard is rebuilding on top of the failing system. The VF is managing the decline gracefully. The Reavers are not thinking in those terms. The Hollow Crown is building the answer to the question nobody else has asked yet.
+
+*The deal they're striking:* HC intelligence has identified exactly which nodes would enable Zone 2 (Mistwater Shores) to be significantly reduced — the node combination is too complex for the VF to find without HC cartography, and the VF has the purification capability the HC lacks. By late Act III, an HC-VF agreement is in active negotiation. It is not complete. It may not complete before the game ends. But the player can see it happening — the most intellectually coherent faction and the most ecologically capable faction finding a use for each other. The long-term consequence, visible in post-game narration, is that two corruption zones are cleared within three years of the game's events. That outcome is only available under Hollow Crown alignment.
+
+**Frontier settlements:** Ashford's mine under full HC administration — Vesper is operating openly now, no longer pretending. Ironwood's Hollow Crown contact is now operating openly, the logging trails formalized as HC courier routes. Grainfell and Southwatch are less HC-touched; HC presence there is through trade relationships rather than direct influence.
+
+**The Act III first-impression beat:** Entering the Noble Quarter, the player sees the archive building with students outside it. One of the students is the Vaelari, who the player may recognize from Act I: Caelen's former student, the one who was being pushed out of the Circle for political reasons. She got here by a path the player may or may not have contributed to. She is studying lattice architecture. She does not notice the player unless they approach her. If they do, she says one thing: "I didn't expect to be allowed in." Then she goes back to her work.
+
+**What It Cost**
+
+**The abandonment is real:** Three families received formal notices that their land is in the permanent loss column. Erys Moonwhisper read the abandonment notice for the third farmstead in her morning announcement — official language, Eltaryn seal at the bottom. Harren Voss heard it. He did not comment publicly. He came to the player afterward with one observation: the family in the third farmstead is still there, and the HC has decided not to force them out, which means their own boundary system has a case where it failed to hold. He is not asking the player to do anything. He wanted someone to know.
+
+**The access problem:** The academy's student composition is visible and specific. Four out of thirty from non-noble origins is better than zero. It is not proportionate to the Vale's population. The Hollow Crown is aware of this — it is in their internal documentation, accessible at sufficient standing — and their response is that the first class had to be people with existing literacy and prerequisite knowledge, which skews noble, and that subsequent classes will be more representative. Whether the player believes that is a design decision, not an authorial one.
+
+**The knowledge gap:** The most important knowledge the HC has — the proto-successor project in Ashford — is not public. Vesper's research is under HC proprietary classification. The lattice node map is shared freely. The research into what comes after is not. The player who is paying attention will notice this distinction and be able to ask about it. The answer they get from Vesper is honest: "The map helps everyone survive the present. The successor project determines who controls the future. Those are different questions and we have answered them differently."
+
+The player who chose Hollow Crown built the most intellectually sophisticated Vale and the best foundation for long-term recovery. The social hierarchies that were supposed to be dead are being quietly reinstalled through educational access, and the knowledge that could help everyone is being treated as proprietary. That is not a surprise — that is the Hollow Crown being exactly who they always were, just doing it better than they did under aristocratic entitlement. Whether that's progress depends on who you ask.
+
+---
+
+### Cross-Alignment Reference: What Each Alignment Uniquely Produces
+
+| Outcome | VF | Vanguard | Reaver | Hollow Crown |
+|---|---|---|---|---|
+| Ecological recovery (corruption zones visibly smaller) | ✓ | — | — | Partially (via HC-VF deal) |
+| Functional legal system | — | ✓ | — | — |
+| Standardized currency | — | ✓ | — | — |
+| Non-human community liberation (Drakeling/Vaelari agency) | Partial | ✗ (restricted) | ✓ | Partial |
+| Comprehensive lattice knowledge map | — | — | — | ✓ |
+| Post-lattice successor research | — | — | — | ✓ |
+| Self-sustaining Vale defense force | — | ✓ | — | — |
+| Free political assembly | — | — | ✓ | — |
+| Reliable trade route infrastructure | — | ✓ | Informal | — |
+| Corruption zone harvesting capability | — | — | ✓ | — |
+| Long-term zone clearing (via HC-VF deal) | — | — | — | ✓ |
+| Vaelari cultural recovery | ✓ | ✗ | Partial | Partial |
+
+---
+
+### Implementation Notes
+
+**For SD_04 (Companion reactions):** Each companion's Act III reaction should reflect this revised framework. Kael's discomfort under Vanguard alignment is now specifically about the Drakeling labor contracts — he built a society and he knows what the seams look like. Aelira's one-question scene under Vanguard alignment is mandatory, not optional. Maren's epilogue under Reaver alignment is rewritten per the Reaver section above. Seraphine's Academy project under HC alignment is her explicit contribution — the player can see her name on the building.
+
+**For SD_05 (Faction Playbook):** The Act III alignment system should feed back into each faction's long-term position on the continent. Reaver alignment does not mean the Reavers now run the Vale — Varek is explicit about this. It means the Reavers enabled the Vale's liberation and are now a different kind of organization than they were.
+
+**For post-game narration (epilogue sequences):** Each alignment's long-term consequence should be implied rather than stated. VF: The political vacuum gets filled, eventually, by something. Vanguard: The Charter's coverage gaps become the civil rights issue of the next generation. Reaver: Varek's prediction about duration was accurate or it wasn't. HC: The successor project either reaches the proof-of-concept milestone or it doesn't. None of these are answered — they are pointed at.
 
 ---
 

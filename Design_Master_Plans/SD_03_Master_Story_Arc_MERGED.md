@@ -358,7 +358,7 @@ The transmission cuts. The Echo is silent for a long moment. Then, quietly: *"..
 
 **Dungeon Boss:** A reactivated Firstborn war-construct blocks the exit — running defense protocols, multi-phase fight, environmental mechanics using lattice discharge vents.
 
-**Loot:** First significant loot environment. Rare-tier gear, the player's first Firstborn Runes, unique epic-tier item from the boss.
+**Loot:** First significant loot environment. Rare-tier gear, the player's first Relic Shards, unique epic-tier item from the boss.
 
 **Completion:** The player emerges with critical knowledge (the Consciousness is aware, remorseful, and unable to stop itself), a clear objective (find the Ashenveil Archive and the Scepter), and the emotional weight of having heard Erevos speak directly.
 
@@ -435,7 +435,7 @@ Act II is the non-linear heart of the game. After the Act I climax establishes t
 - Faction questlines (6–10 quests per faction, detailed in Faction Playbook)
 - Companion personal quests (3–5 quest arcs per companion, detailed in Companion Design Document)
 - Exploration and dungeon content (8–10 major dungeons, 15–20 minor dungeons, corruption zones, world events)
-- Loot progression (rare → epic, first legendary items, Firstborn Rune and Lattice Formula systems)
+- Loot progression (rare → epic, first legendary items, Relic Shard and Shard Combination systems)
 - Player stronghold development (a Firstborn outpost becomes available early in Act II)
 
 ## 4.2 Main Quest: "The Archive Key" (Hours 15–20)
@@ -528,7 +528,7 @@ A vast catalog room — crystal data storage stacked floor to ceiling, organized
 
 Encounter: A corrupted Index Keeper — a large construct librarian whose sorting algorithms were scrambled by the Severance. It attacks anything it can't categorize. Boss fight with a puzzle component: interface with terminals during the fight to update the Keeper's authorization records, progressively reducing its aggression.
 
-Loot: Rare and epic tier gear. Multiple Firstborn Runes. Access to lore that unlocks Lattice Formula recipes.
+Loot: Rare and epic tier gear. Multiple Relic Shards. Access to lore that unlocks Shard Combination recipes.
 
 **Level 3 — The Workshop**
 A Firstborn engineering laboratory. Still functional. Active prototyping equipment, material fabrication stations — and the plans for the Consuming Consciousness.
@@ -560,7 +560,7 @@ The Scepter of Ascension — sealed in a containment field that responds to the 
 
 **Boss fight:** The Vault Guardian — the Archive's final defense. Most advanced combat encounter yet. Multi-phase fight with environmental mechanics — the vault's containment systems can be redirected as weapons, but doing so risks damaging the Scepter (risk/reward decision).
 
-**Loot:** The Scepter of Ascension (story item — not equippable as a weapon, grants a permanent passive: lattice interface range doubled, corruption resistance +25%). Legendary-tier gear from the Vault Guardian. Multiple Firstborn Runes and a guaranteed Lattice Formula discovery.
+**Loot:** The Scepter of Ascension (story item — not equippable as a weapon, grants a permanent passive: lattice interface range doubled, corruption resistance +25%). Legendary-tier gear from the Vault Guardian. Multiple Relic Shards and a guaranteed Shard Combination discovery.
 
 **Level 7 — The Descent**
 After recovering the Scepter, the Archive's deepest level opens — a passage leading further down, toward the Heart of the Lattice itself. The player can see it: a vast dark shaft descending into light. The lattice's energy visible — flowing, pulsing, alive.
@@ -857,7 +857,7 @@ Each ending concludes with a four-part narrated epilogue. For Endings A and B, t
 ## 7.2 New Game Plus
 
 After completing the game, the player unlocks New Game Plus:
-- Carry over character level, gear, and Lattice Formulas
+- Carry over character level, gear, and Shard Combinations
 - Enemy difficulty scaled up
 - New dialogue options reflecting the player's knowledge of the truth (the player character "remembers" — enabling different conversation paths, especially with Erevos and the Echo)
 - Access to a small number of NG+-exclusive items
@@ -954,10 +954,10 @@ POST-CREDITS: "Beyond the Crown"
 | "A Place to Stand" complete | 6–8 | Uncommon dominant |
 | "Fault Lines" complete | 8–10 | Uncommon + first Rares |
 | "The Deep Wound" complete | 12–15 | Rare dominant |
-| Act I climax ("Fracture Point") | 14–16 | Rare + first Firstborn Runes |
+| Act I climax ("Fracture Point") | 14–16 | Rare + first Relic Shards |
 | Mid-Act II ("Archive Key") | 18–22 | Rare/Epic transition |
 | "Ashenveil Archive" complete | 25–30 | Epic dominant + Legendaries |
-| Act II climax ("The Reckoning") | 28–32 | Epic + Lattice Formulas active |
+| Act II climax ("The Reckoning") | 28–32 | Epic + Shard Combinations active |
 | Act III surface missions | 30–35 | Epic/Legendary |
 | Heart Road | 35–40 | Full build — Legendary + Relic-tier |
 | Final encounter | 38–40 | Best available — player should feel powerful |

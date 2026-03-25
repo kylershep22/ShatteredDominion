@@ -225,7 +225,7 @@ Vanguard-controlled zones have the most stable trade routes and lowest base tari
 | 0 | Unknown | Default | Basic neutrality at grove camp |
 | 1 | Observer | 15 Fame | Verdant Flame scholars will speak openly. Basic reagent merchant. |
 | 2 | Field Researcher | 35 Fame | Access to corruption purification side quests. Reagent Tier 2. Wellspring maps. |
-| 3 | Circle Ally | 55 Fame | Elder Thorn meeting. Purification abilities unlock. Sylvarai community trust increases. |
+| 3 | Circle Ally | 55 Fame | Elder Thorn meeting. Purification abilities unlock. Vaelari community trust increases. |
 | 4 | Seer-Friend | 75 Fame | Aelira's personal quest unlocks fully. Inner archive access. Rare reagent merchant. |
 | 5 | Voice of the Grove | 95 Fame | Verdant Flame public endorsement. Corruption zones partially passable. Highest reagent tier. |
 
@@ -234,8 +234,8 @@ Vanguard-controlled zones have the most stable trade routes and lowest base tari
 | Infamy Level | Effect |
 |---|---|
 | Low | No effect |
-| Medium | Sylvarai NPCs become cold. Some quests gated. Aelira becomes professionally distant. |
-| High | Verdant Flame rangers are hostile. Sylvarai community merchants close. |
+| Medium | Vaelari NPCs become cold. Some quests gated. Aelira becomes professionally distant. |
+| High | Verdant Flame rangers are hostile. Vaelari community merchants close. |
 | Very High | Branded as a desecrator. Active hostility in Wellspring-adjacent zones. Elder Thorn issues a formal warning to other factions. |
 
 ### Faction Perks (Unlocked by Fame Tier)
@@ -250,7 +250,7 @@ Vanguard-controlled zones have the most stable trade routes and lowest base tari
 **Act I:**
 - *The Pulse Readings* — Help Aelira map a destabilizing lattice node before it ruptures
 - *The Radical's Fire* — A Verdant Flame extremist has begun burning farms near the border; stop them or not — and how you handle it shapes the Circle's internal dynamics
-- *Greenwatch Crisis* — The Sylvarai refugee camp (Greenwatch) faces a Thornwalker raid; the Circle wants protection without Vanguard involvement
+- *Greenwatch Crisis* — The Vaelari refugee camp (Greenwatch) faces a Thornwalker raid; the Circle wants protection without Vanguard involvement
 
 **Act II:**
 - *The Archive Truth* — Aelira has decoded Firstborn records that contradict both Vanguard and Hollow Crown narratives; decide who else learns this
@@ -379,10 +379,10 @@ Minor factions do not have full Fame/Infamy tracking. They operate on a simplifi
 **Allied Unlocks:** Drakeling cultural goods merchant, access to Pyra Flameheart's faction if she was deradicalized, unique fire-resistant crafting components.
 **Quest Available (Allied):** *The Long March* — Elder Vorash asks the player to negotiate permanent settlement status for Emberhaven with whatever faction currently controls Hollowford. The approach and outcome depend heavily on the player's standing with that faction.
 
-### Greenwatch Sylvarai Community
+### Greenwatch Vaelari Community
 **Default State:** Determined by Verdant Flame standing (strong positive correlation)
 **Independent Shift:** Completing Wellspring Pulse, Thornwalker Raid events in the map document.
-**Allied Unlocks:** Sylvarai Wellspring reagents (unique tier), Aelira's community trust amplified, access to Thornwalker faction if allied.
+**Allied Unlocks:** Vaelari Wellspring reagents (unique tier), Aelira's community trust amplified, access to Thornwalker faction if allied.
 **Quest Available (Allied):** *Rootless* — Liora, the Half-Formed outcast, has information about a Wellspring corruption source that she will only share with someone she trusts. Her personal quest is available only through Greenwatch Allied standing.
 
 ### The Undercity Residents (Hollowford)
@@ -539,11 +539,13 @@ As faction tensions escalate:
 - Stability increases across all Vanguard routes
 - Black market prices spike due to supply suppression
 
-**Reavers Dominate the Undercity:**
-- All Hollowford trade includes a Reaver cut (unavoidable if below Tier 3 Reaver Fame)
-- Black market prices drop significantly
-- New high-margin contraband categories open
-- Legitimate merchant income drops 20% (they operate under extortion)
+**Reavers Liberate the Market (The Liberated Vale):**
+- Undercity Layer 2 partially surfaces — formerly restricted goods available through legitimate stalls
+- Black market prices drop significantly (reduced scarcity as goods move aboveground)
+- Contraband categories shrink (fewer things are restricted, so fewer things carry black market premiums)
+- Community-based arbitration replaces faction-controlled trade enforcement — Varek's network facilitates disputes rather than extracting tribute
+- Legitimate merchants operate without faction taxation but without faction protection — income is variable, not suppressed
+- Trade route maintenance is community-driven (slightly less reliable in bad weather, significantly more accessible to non-faction traders)
 
 **Verdant Flame Controls the Vale Border:**
 - Corruption zone routes become passable
@@ -591,7 +593,7 @@ World state changes do not activate in Act I. The Vale is in shock — factions 
 ### Verdant Flame Influence Zones
 **Visual:** Corruption receding at zone edges (visible green-gold light pushing back the black-vein growth). Planted markers at corruption boundaries. Grove shrines at intersections.
 **Mechanical:** Corruption zone passive damage reduced by 50% in adjacent areas. Reagent gathering yields increased. Wild magic events occur here but are more likely to be beneficial than harmful. Vanguard presence minimal.
-**NPC Behavior:** Sylvarai NPCs move openly. Human NPCs are a mix — relieved about corruption reduction, nervous about the magic. Some report Verdant Flame activity to the Vanguard (side quest hook).
+**NPC Behavior:** Vaelari NPCs move openly. Human NPCs are a mix — relieved about corruption reduction, nervous about the magic. Some report Verdant Flame activity to the Vanguard (side quest hook).
 
 ### Hollow Crown Influence Zones
 **Visual:** Eltaryn heraldry displayed on buildings (sometimes quietly, sometimes boldly). Hired guards in House livery rather than Vanguard armor. Wealthier, more maintained streets. Subtle intelligence apparatus (watchers, informants — the player can learn to spot them).

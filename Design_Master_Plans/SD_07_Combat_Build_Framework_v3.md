@@ -47,8 +47,7 @@ Enemies do not scale globally. Each zone has a fixed level range. Over-leveling 
 | Act I — Deeper zones | 10–25 | |
 | Act II — Entry zones | **25–40** | Floor adjusted from v2.0 — prevents difficulty valley for thorough Act I players |
 | Act II — Main zones | 30–55 | |
-| Act III — Conflict zones, deep ruins | 45–70 | |
-| Act IV — Heart approach, endgame | 65–85 | |
+| Act III — Conflict zones, deep ruins, Heart approach | 45–85 | Includes endgame content formerly listed as "Act IV" — consolidated per three-act structure |
 | Post-game / Challenge content | 80–100 | |
 
 ---

@@ -51,13 +51,13 @@ Do not make assumptions about things not covered here. If something is unclear, 
 | `SD_01_World_Bible_Lore_Foundation.md` | World Bible & Lore Foundation | ✅ Canonical | Source of truth for all lore, metaphysics, factions, geography |
 | `SD_02_Race_Origin_System.md` | Race & Origin System | ✅ Canonical | Three races, two origins each. All race/origin questions defer here. |
 | `SD_03_Master_Story_Arc_MERGED.md` | Master Story Arc | ✅ Canonical (v2.1) | Merged doc. Three-act structure. Three endings. One designer flag remains (see Section 4). |
-| `SD_04_Companion_Design.md` | Companion Design | ✅ Canonical | Four companions, full arc design, relationship mechanics, ending fates. |
+| `SD_04_Companion_Design.md` | Companion Design | ✅ Canonical | Four companions, full arc design, relationship mechanics, ending fates. Ending D content extracted to appendix. |
 | `SD_05_Faction_Playbook.md` | Faction Playbook | ✅ Canonical | Fame/Infamy system, faction mechanics, economic layer. |
-| `SD_06_Loot_Itemization_Bible.md` | Loot & Itemization Bible | ✅ Canonical (v2.0) | **NOTE: Uses non-canonical terminology. See Section 5 — Terminology.** |
-| `SD_07_Combat_Build_Framework.md` | Combat & Build Framework | ✅ Canonical (v3.0) | **NOTE: Contains Act IV references from older draft — incorrect. Three acts only. See Section 4.** |
-| `SD_08_Severant_Vale_Region_Guide.md` | Severant Vale Region Guide | ⚠️ DOES NOT EXIST YET | Interim sources: `SD_-_Playable_Area_Detail.txt` and `SD_Map_V1.txt`. SD_09 depends on this doc. |
-| `SD_09_Art_Direction_Style_Guide.md` | Art Direction & Style Guide | ✅ Canonical | Depends on SD_08 which doesn't exist yet — proceed with interim source files. |
-| `SD_10_MVP_Development_Roadmap.md` | MVP Development Roadmap | ✅ Canonical | Depends on all above. |
+| `SD_06_Loot_Itemization_Bible.md` | Loot & Itemization Bible | ✅ Canonical (v2.0) | Terminology now canonical ("Relic Shards" / "Shard Combinations"). Act IV reference corrected. |
+| `SD_07_Combat_Build_Framework.md` | Combat & Build Framework | ✅ Canonical (v3.0) | Act IV zone scaling reference corrected — consolidated into Act III. |
+| `SD_08_Severant_Vale_Region_Guide.md` | Severant Vale Region Guide | ✅ Canonical (v2.0) | Section 9.3 rewritten 2026-03-20 with full Act III alignment world states. Act III/IV reference corrected. |
+| `SD_09_Art_Direction_Style_Guide.md` | Art Direction & Style Guide | ✅ Canonical | SD_08 dependency now satisfied. |
+| `SD_10_MVP_Development_Roadmap.md` | MVP Development Roadmap | ✅ Canonical | Depends on all above. Act IV references corrected to three-act structure. |
 | `COWORK_INSTRUCTIONS.md` | This File | ✅ Always current | Standing instructions for all Claude sessions. |
 
 **Supplemental/Archive Files (do not treat as canonical):**
@@ -74,14 +74,14 @@ These are locked decisions. Do not contradict them. Do not revert them. Do not p
 - **Three playable races at launch:** Human, Vaelari, Aetherborn
 - **Two origins per race (six total at launch)**
   - Human origins: Frontier Settler, Relic Hunter
-  - Vaelari origins: Rootbound, Voluntary Driftless
+  - Vaelari origins: Newly Awakened, Voluntary Driftless
   - Aetherborn origins: Fracture Core, Settlement Emergent
 - **Ironkin and Drakelings are expansion-only** — they exist as lore and NPCs but are NOT playable at launch
 - **"Vaelari"** is the correct and only name for the nature/forest race. "Sylvarai" is an old, incorrect name — never use it.
 
 ### Story Structure
 - **Three acts:** Act I (Arrival, Hours 1–15), Act II (Descent, Hours 15–40), Act III (Judgment, Hours 40–55+)
-- **There is no Act IV.** SD_07 and SD_10 contain Act IV references from an older draft — these are errors. The Heart Road dungeon and final encounter are the back half of Act III.
+- **There is no Act IV.** Act IV references in SD_06, SD_07, and SD_10 were corrected 2026-03-20. The Heart Road dungeon and final encounter are the back half of Act III.
 - **Three endings:**
   - **Ending A: Guided Dissolution** — Honor the Firstborn's intent; manage the lattice's end over centuries.
   - **Ending B: Override** — Use the Scepter to override the Consciousness; seize permanent control of the lattice.
@@ -122,28 +122,20 @@ These are locked decisions. Do not contradict them. Do not revert them. Do not p
 
 ## SECTION 4: OPEN DECISIONS
 
-These are unresolved. Do **not** resolve them silently. Do **not** pick a side without explicit instruction from Kyle. If a task requires knowing the answer to one of these, flag it and ask.
+All three open decisions are now resolved (2026-03-20). No open decisions remain. If new design questions arise, add them here and flag Kyle before proceeding.
 
-### Open Decision 1: Act I Finale Location
-**The question:** Should the Act I climax ("Fracture Point") take place at the **North Wall** (per SD_03's structural design) or the **Deepwood** (per the original Story Detail's narrative)?
+### ~~Open Decision 1: Act I Finale Location~~ — RESOLVED
+**Decision (2026-03-20):** The Act I climax ("Fracture Point") takes place at Hollowford's **North Wall**. The corruption surge from Thornveil threatens the northern wall directly; all four factions converge there. Deepwood Corruption remains an Act II dungeon zone.
 
-**Current state:** SD_03 retains "Fracture Point" as the quest name and North Wall as the implied location, but incorporates the Story Detail's four-resolution crisis structure. The specific location is still unresolved.
+**Note:** SD_03 was already written around this location (corruption tendril toward northern wall, defense of Hollowford). This decision confirms and locks that design.
 
-**Impact:** Affects environmental art direction, encounter design, faction dynamics of the crisis, and any specific NPC positioning for the Act I climax.
+### ~~Open Decision 2: Terminology Reconciliation (Runes vs. Shards)~~ — RESOLVED
+**Decision (2026-03-20):** Canonical terminology is **"Relic Shards"** and **"Shard Combinations"** (the SD_06/SD_07 terminology). SD_01, SD_02, and SD_03 have been updated to match. All documents now use consistent terminology.
 
-### Open Decision 2: Terminology Reconciliation (Runes vs. Shards)
-**The question:** SD_01 (source of truth) calls the socketable items **"Firstborn Runes"** and the combined effects **"Lattice Formulas."** SD_06 and SD_07 were written using **"Relic Shards"** and **"Shard Combinations."**
+**Note:** While "Relic" does appear in other contexts (Failsafe Relics, Relic Marks, Relic Hunter origin), Kyle decided the Shard terminology better fits the itemization feel. Context will disambiguate.
 
-**Current state:** The naming conflict exists across at least three documents. A decision on which terminology to adopt has not been made. Recommendation: favor SD_01's terminology ("Firstborn Runes" / "Lattice Formulas") because "Relic" already has a distinct meaning in this world (Failsafe Relics, Relic Marks, Relic Hunter origin), and collision of that term with the itemization system creates potential confusion.
-
-**Impact:** Requires a terminology sweep of SD_06 and SD_07 once decided. Also affects any future itemization or combat writing.
-
-### Open Decision 3: SD_08 Does Not Exist
-**The question:** SD_08 (Severant Vale Region Guide) is referenced in the document hierarchy and depended on by SD_09, but has never been written. Draft material exists in `SD_-_Playable_Area_Detail.txt` and `SD_Map_V1.txt`.
-
-**Current state:** Not a decision per se, but a known gap. Any work touching geography, regional layout, or specific Vale locations should note that SD_08 is the missing authority document.
-
-**Impact:** SD_09 (Art Direction) formally depends on a document that doesn't exist. Work on environment art direction should use the interim files plus SD_01 Section 6 as the reference.
+### ~~Open Decision 3: SD_08 Does Not Exist~~ — RESOLVED
+**Status (2026-03-20):** SD_08 (Severant Vale Region Guide v2.0) now exists and is canonical. Section 9.3 (Act III Alignment World States) was rewritten with full alignment designs including win conditions, costs, named NPC consequences, and a cross-alignment reference table. SD_09 dependency is now satisfied.
 
 ---
 
@@ -164,8 +156,8 @@ Always use these terms. Never use the alternatives listed.
 | **Echo** | "the voice," "the spirit" | Always capitalized when referring to the player's companion. |
 | **Heart of the Lattice** | "the final dungeon," "the core" | Capitalize. The endgame destination. |
 | **Scepter of Ascension** | "the control key," "the staff" | Capitalize. The Hollow Crown's MacGuffin. |
-| **Firstborn Runes** | "Relic Shards," "rune stones" | **OPEN DECISION — see Section 4.** SD_01 canonical term. SD_06/07 use "Relic Shards." |
-| **Lattice Formulas** | "Shard Combinations," "combo effects" | **OPEN DECISION — see Section 4.** SD_01 canonical term. SD_06/07 use "Shard Combinations." |
+| **Relic Shards** | "Firstborn Runes," "rune stones" | RESOLVED 2026-03-20. Socketable components. All docs updated. |
+| **Shard Combinations** | "Lattice Formulas," "combo effects" | RESOLVED 2026-03-20. Combined socket effects. All docs updated. |
 | **Hollowford** | "the main city," "the hub" | The primary player settlement in the Vale. |
 | **Severant Vale** | "the Vale region" | "The Vale" is acceptable shorthand. |
 | **Aethercrown** | "the continent" | The continent's name. |
@@ -205,6 +197,27 @@ Magic exists as a natural ambient force (Wild Magic). The Firstborn built the Ae
 
 ---
 
+## SECTION 6B: ACT III ALIGNMENT CROSS-REFERENCE
+
+*Canonical reference table from SD_08 Section 9.3. Each alignment produces exclusive outcomes — this table shows what only that alignment can achieve.*
+
+| Outcome | VF | Vanguard | Reaver | Hollow Crown |
+|---|---|---|---|---|
+| Ecological recovery (corruption zones visibly smaller) | ✓ | — | — | Partially (via HC-VF deal) |
+| Functional legal system | — | ✓ | — | — |
+| Standardized currency | — | ✓ | — | — |
+| Non-human community liberation (Drakeling/Vaelari agency) | Partial | ✗ (restricted) | ✓ | Partial |
+| Comprehensive lattice knowledge map | — | — | — | ✓ |
+| Post-lattice successor research | — | — | — | ✓ |
+| Self-sustaining Vale defense force | — | ✓ | — | — |
+| Free political assembly | — | — | ✓ | — |
+| Reliable trade route infrastructure | — | ✓ | Informal | — |
+| Corruption zone harvesting capability | — | — | ✓ | — |
+| Long-term zone clearing (via HC-VF deal) | — | — | — | ✓ |
+| Vaelari cultural recovery | ✓ | ✗ | Partial | Partial |
+
+---
+
 ## SECTION 7: RACE SUMMARIES
 
 ### Humans — The Scattered Inheritors
@@ -215,12 +228,12 @@ Most directly responsible for the lattice's failure. Most politically fluent. Mo
 - **Origins:** Frontier Settler (lost homestead in the Severance), Relic Hunter (blamed for causing the catastrophe).
 - **Recommended starting race** for new players.
 
-### Vaelari — The Rootless and the Returning
+### Vaelari — The Unwilling Awoken
 Nature-attuned race from the Verdantheart Wilds. Many were in chrysalis (a dormancy/metamorphosis state) when the Severance shattered the Wellspring's stability. They woke changed — some traumatically.
 - **Unique mechanic:** Communion — can interface directly with natural lattice nodes, corrupted flora, and wild magic phenomena.
 - **Visual identity:** Subtly inhuman. Taller, luminescent eyes, faint bioluminescence under skin. "Driftless" (severed from the Wellspring) show visible signs: silver in hair, dulled eye glow.
 - **Social standing:** Treated with reverence and unease. Viewed as omens by some, as dangerous by others.
-- **Origins:** Rootbound (still connected to Wellspring), Voluntary Driftless (deliberately severed from the Wellspring's call — represents philosophical split in Vaelari society).
+- **Origins:** Newly Awakened (emerged prematurely from chrysalis during the Severance — learning everything from scratch), Voluntary Driftless (deliberately severed from the Wellspring's call — represents philosophical split in Vaelari society).
 
 ### Aetherborn — The Sudden People
 Born from the Severance itself. Lattice energy crystallized around compatible biological matter (human or near-human) during the cascade and produced new beings — partly organic, partly arcane. They are weeks old. They have no childhood, no history, no culture of their own, and they are already dying if they can't maintain their arcane stability.
@@ -309,7 +322,7 @@ Theme: Survival and discovery.
 - Establishes themselves in the post-Severance world.
 - Encounters all four factions.
 - Recruits first companions (Kael, Aelira, optionally Maren).
-- Survives the "Fracture Point" crisis (location TBD — see Open Decision 1).
+- Survives the "Fracture Point" crisis (North Wall, Hollowford).
 - Receives first direct transmission from the Consuming Consciousness.
 - End state: Player understands the lattice is failing deliberately, they are uniquely equipped to do something about it, and powerful people have noticed.
 
@@ -395,21 +408,19 @@ When working on this project, follow these rules in all tasks:
 
 **Completed and locked:**
 - SD_01 through SD_07, SD_09, SD_10 — all canonical, all in the Design_Bible folder
-- Race naming ("Vaelari") — consistent across all documents
+- Race naming ("Vaelari") — consistent across all documents (SD_05 corrected 2026-03-20)
 - Race/origin scope (3 races, 2 origins each, Ironkin/Drakelings as expansion-only) — consistent
 - Endings count (three: Guided Dissolution, Override, Severance Complete) — confirmed and propagated to SD_03 v2.1 and SD_10
 
 **Immediate next tasks (prioritized):**
-1. **Resolve Open Decision 1** (Act I finale location: North Wall vs. Deepwood) — no other story work should proceed until this is confirmed
-2. **Resolve Open Decision 2** (Rune/Shard terminology) — run a terminology sweep of SD_06 and SD_07 once decided
-3. **Fix SD_07 Act IV references** — straightforward edit once act structure is confirmed in SD_07's own text (the zone scaling table currently lists Act IV)
-4. **Build SD_08** (Severant Vale Region Guide) — use `SD_-_Playable_Area_Detail.txt`, `SD_Map_V1.txt`, and SD_01 Section 6 as source material
-5. **SD_04 consistency pass** — verify companion content against SD_03's merged quest structure (identified as needed but not yet done)
+1. ~~**Resolve Open Decision 1** (Act I finale location)~~ — ✅ RESOLVED 2026-03-20. North Wall confirmed. SD_03 already written around this location.
+2. ~~**Resolve Open Decision 2** (Rune/Shard terminology)~~ — ✅ RESOLVED 2026-03-20. "Relic Shards" / "Shard Combinations" adopted. All docs updated.
+3. ~~**Fix Act IV references**~~ — ✅ DONE 2026-03-20. SD_06, SD_07, SD_10 corrected.
+4. ~~**Build SD_08**~~ — ✅ EXISTS (v2.0). Section 9.3 rewritten 2026-03-20 with full alignment world states.
+5. ~~**SD_04 consistency pass**~~ — ✅ DONE 2026-03-20. Ending D content extracted to appendix. Three-ending structure enforced. Companion alignment reactions added (Section 6.3).
 
 **Known document gaps:**
-- SD_07 zone scaling table still lists "Act IV" — needs correction to reflect three-act structure
-- SD_06 and SD_07 use non-canonical terminology for the socket system (pending Open Decision 2)
-- SD_08 does not exist; SD_09 formally depends on it
+- None. All open decisions resolved. All documents canonical.
 
 ---
 

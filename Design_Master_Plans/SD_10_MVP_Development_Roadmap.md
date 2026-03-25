@@ -18,7 +18,7 @@ Before planning production, the full scope must be understood explicitly. This a
 ### Narrative Content
 | Category | Quantity |
 |---|---|
-| Main story acts | 4 (Acts I–IV) |
+| Main story acts | 3 (Acts I–III) |
 | Companion characters (full arcs) | 4 (Kael, Aelira, Maren, Seraphine) |
 | Companion personal quests | 12 (3 per companion) |
 | Faction quest lines | 4 complete lines (Act I + Act II per faction = 24 quests) |
@@ -29,7 +29,7 @@ Before planning production, the full scope must be understood explicitly. This a
 | Total voiced dialogue lines (estimate) | 35,000–50,000 |
 | Companion voiced lines alone | 8,000–16,000 |
 | Act III alignment world states | 4 × all Vale locations |
-| Game endings | 3–4 (base + optional Integration ending) |
+| Game endings | 3 (Guided Dissolution, Override, Severance Complete) |
 | Companion ending epilogues | 36 minimum |
 
 ### World Content
@@ -208,11 +208,11 @@ This is stated plainly, not as a discouragement, but because the most common cau
 - [ ] All companion personal quests Act II content complete
 - [ ] Act II → Act III transition functional
 
-**Act III/IV complete (greybox) — Month 30 target:**
+**Act III complete (greybox) — Month 30 target:**
 - [ ] All 4 Act III alignment world states implemented
 - [ ] All faction Act III quest lines complete
 - [ ] Heart of the Lattice final sequence complete
-- [ ] All 3–4 endings functional
+- [ ] All 3 endings functional
 - [ ] All companion endings and epilogues implemented
 
 ---
@@ -296,7 +296,7 @@ Everything in the Constrained Core must serve at least one of these four pillars
 ## 3.2 Non-Negotiable — Must Ship
 
 **Narrative:**
-- Main story Acts I–IV — start to finish, fully voiced. The narrative is the product. A version of this game without a complete story is not this game.
+- Main story Acts I–III — start to finish, fully voiced. The narrative is the product. A version of this game without a complete story is not this game.
 - All 4 companions with full arcs, personal quests, and ending epilogues. The companion system is the emotional heart. Reducing to 2 companions would halve the relationship system's richness beyond recovery.
 - All 4 faction quest lines — Act I content minimum, Act II content strongly preferred. The faction system without all four factions is not the faction system.
 

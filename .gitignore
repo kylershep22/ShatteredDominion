@@ -1,0 +1,21 @@
+# Blender autosave/backup files
+*.blend1
+*.blend2
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# UE5 derived data (if any end up here)
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Claude Code local settings (not project settings)
+.claude/settings.local.json

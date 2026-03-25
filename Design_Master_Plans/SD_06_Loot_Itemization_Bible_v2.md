@@ -904,7 +904,7 @@ Refinement happens at the appropriate station (smelting at the Blacksmith, curin
 
 *Extremely rare. Found in specific locations, as unique boss drops, or through the highest-tier faction quests. Each unit is meaningful. Refinement ratio is 1:1 — these are already near-ideal.*
 
-**Metals:** | Raw Material | Refined Form | Use | |---|---|---| | Firstborn Alloy (ruin deposits) | Firstborn Alloy Ingot | Required for Masterwork upgrades and Custom Remnant crafting at the Firstborn Forge | | Void Heart Metal (deepest corruption zones) | Void Heart Ingot | Enables the most powerful Void-adjacent craftsman properties; dangerous to work with | | Lattice Core Metal (from the Heart of the Lattice — Act IV) | Lattice Heart Ingot | Post-game crafting material; enables the highest-tier Runecarving inscriptions |
+**Metals:** | Raw Material | Refined Form | Use | |---|---|---| | Firstborn Alloy (ruin deposits) | Firstborn Alloy Ingot | Required for Masterwork upgrades and Custom Remnant crafting at the Firstborn Forge | | Void Heart Metal (deepest corruption zones) | Void Heart Ingot | Enables the most powerful Void-adjacent craftsman properties; dangerous to work with | | Lattice Core Metal (from the Heart of the Lattice — late Act III) | Lattice Heart Ingot | Post-game crafting material; enables the highest-tier Runecarving inscriptions |
 
 **Organics:** | Raw Material | Refined Form | Use | |---|---|---| | Firstborn Fiber (ancient textile preserved in ruins) | Firstborn Cloth | Required for Tailoring-track Masterwork items; enables highest craftsman properties | | Ancient Grove Heart (Wellspring-core material, Verdant Flame quest reward) | Heart Extract | Highest Alchemy tier; enables craftsman consumables |
 

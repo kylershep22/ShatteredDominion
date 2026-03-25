@@ -490,7 +490,7 @@ Aetherborn should look wrong. Not ugly — beautiful, in fact — but wrong. The
 **Unique System — Overload:**
 The Overload system is the Aetherborn's defining mechanic. Any spell can be Overloaded by holding the cast button beyond the normal release point. A visual indicator (the relic mark pulsing faster, the screen's edge distorting) shows the charge building. Release at the right moment for a controlled Overload (50% boost, manageable HP cost). Hold too long and the Overload becomes uncontrolled (100% boost but massive HP cost, random trajectory, potential self-damage, and a 5-second cooldown on all abilities).
 
-Mastery of Overload timing is what separates adequate Aetherborn play from exceptional Aetherborn play. Certain items, runes, and Lattice Formulas interact with the Overload system — reducing HP cost, extending the controlled window, adding secondary effects on Overload, or converting Overload self-damage into a beneficial effect.
+Mastery of Overload timing is what separates adequate Aetherborn play from exceptional Aetherborn play. Certain items, Relic Shards, and Shard Combinations interact with the Overload system — reducing HP cost, extending the controlled window, adding secondary effects on Overload, or converting Overload self-damage into a beneficial effect.
 
 **Playstyle Tendencies:** Mage builds, spellblade builds, glass-cannon burst damage, tactical positioning. Aetherborn are the hardest race to play well and the most powerful when played optimally. Recommended for experienced players.
 
