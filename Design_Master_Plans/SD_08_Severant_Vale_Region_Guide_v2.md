@@ -1,8 +1,8 @@
 # THE SHATTERED DOMINION — SEVERANT VALE REGION GUIDE
-## Document 8 of 10 | Version 2.0 | Depends on: World Bible, Main Story Arc, Faction Playbook, Combat & Build Framework, Loot & Itemization Bible
+## Document 8 of 10 | Version 3.0 | Depends on: World Bible, Main Story Arc, Faction Playbook, Combat & Build Framework, Loot & Itemization Bible
 
 **Revision Notes (v1.0 → v2.0):**
-- Map size reduced from 120 km² to 40–45 km²; recovered budget invested in 60–80 authored micro-discoveries
+- Map size reduced from 120 km² to 40–45 km² (v2.0), then to ~20 km² (v3.0); recovered budget invested in 60–80 authored micro-discoveries and higher content density per km²
 - Fast travel changed from Skyrim discovery model to hub-and-spoke (12–13 major nodes only); faction travel fills the gaps and has genuine value
 - Hollow Crown Act III alignment redesigned: knowledge-based corruption boundary system replaces "political decor" framing
 - NPC schedules cross district lines — every major NPC has a daily routine that takes them outside their home district
@@ -12,6 +12,17 @@
 - Southwatch discoverability hooks added (Corda in Hollowford Act I, Harren's trade comment)
 - Old Ford anomaly given a discoverable resolution
 - Verdant Temple alternate path pre-framed through Brother Fen before dungeon entry
+
+**Revision Notes (v2.0 → v3.0):**
+- Map size reduced from 40–45 km² to ~20 km² (5km × 4.5km oval) for solo-developer scope and content density
+- Hollowford compressed from ~1.2 km² walled city to ~0.5 km² (all named locations, NPCs, and quests preserved)
+- All frontier settlement distances compressed proportionally (2–3km from Hollowford, down from 3.5–5km)
+- Mistwater Lake reduced from 2km to 800m diameter; Sunspear Ridge reduced from 5km to 2km
+- Visual hook intervals compressed from 500m to 300–350m along all road corridors
+- Corruption zone sizes scaled proportionally to maintain same percentage of map coverage
+- Content density target maintained at one encounter per 0.4–0.5 km²; at 20 km² this yields 40–50 encounters which, combined with 60–80 micro-discoveries and 300–350m visual hook intervals, exceeds the effective density of the original 40–45 km² plan
+- Heightmap resolution reduced from 4033×4033 to 2017×2017
+- Hollowford district dimensions reduced (see Section 4 changes)
 
 ---
 
@@ -27,7 +38,7 @@ The Vale is not a post-apocalyptic wasteland. It is a place in acute crisis: pas
 
 ## 1.2 Geography
 
-**Size:** 40–45 km² playable area. This is a deliberate design decision. Player perception of world size is driven by discovery density, not raw terrain. A 40–45 km² map with high authored content density will feel larger than a 120 km² map with sparse content because something meaningful happens every few minutes of travel. Every km² earns its place.
+**Size:** ~20 km² playable area (approximately 5km × 4.5km oval). This is a deliberate design decision. Player perception of world size is driven by discovery density, not raw terrain. A 20 km² map with maximum authored content density will feel larger than a 120 km² map with sparse content because something meaningful happens every minute of travel. Every km² earns its place — at this scale, every 300m of road offers a visual hook or discovery. Target content density is one authored encounter per 0.4–0.5 km² (~40–50 encounters), layered with 60–80 micro-discoveries, ~56 formal/faction quests, and visual hooks every 300–350m across all road corridors. See Section 11 Scope Budget for the full content inventory.
 
 **Elevation range:** 50m (river valley, Hollowford) to 400m (eastern ridge approaching Verdantheart).
 
@@ -158,7 +169,7 @@ Level designers are responsible for ensuring no two micro-discoveries are visibl
 ## 4.1 Overview
 
 **Population:** ~12,000 (pre-Severance: ~8,000; refugee influx adds ~4,000)
-**Size:** ~1.2 km² walled city + surrounding refugee camps
+**Size:** ~0.5 km² walled city (approximately 700m × 650m) + surrounding refugee camps
 **Controlling faction:** Ironbound Vanguard (martial law, contested)
 
 Hollowford was never supposed to matter this much. It was a regional hub — a ford crossing, a market, a waypoint. Now it is the last functioning city in the Vale. Every faction has representatives here. Every displaced person is trying to get here, or leave, or survive within its walls.
@@ -464,13 +475,13 @@ Corruption zones exist on a spectrum: some are traversal hazards (dangerous to c
 
 ### Zone 1 — The Ashfield Scar (Northeast, near Grainfell)
 **Type:** Expansion hazard, active threat to farmland
-**Size:** ~0.3 km² (Act I) → ~1.2 km² (Act II if unchecked)
+**Size:** ~0.15 km² (Act I) → ~0.6 km² (Act II if unchecked)
 **Enemy composition:** Corrupted wildlife, Corrupted Husks
 **Clear condition:** *The Failing Crop* Grainfell quest — stabilizing the buried node stops growth permanently
 
 ### Zone 2 — Mistwater Shores (North-central, around Mistwater Lake)
 **Type:** Exploration destination
-**Size:** ~0.8 km² (stable — predates the Severance, growth already complete)
+**Size:** ~0.4 km² (stable — predates the Severance, growth already complete)
 **Backstory:** A Firstborn water-regulation node beneath the lake failed decades ago during initial lattice degradation. The corruption here is old enough to have developed an ecosystem — creatures that have adapted to it rather than being destroyed by it.
 **Enemy composition:** Evolved Corrupted variants, Void Crawlers, the Mistwater Sentinel (named Corrupted bear — boss encounter)
 **Clear condition:** Cannot be fully cleared. Verdant Flame reduces passive damage. The node is too deep and too damaged.
@@ -478,20 +489,20 @@ Corruption zones exist on a spectrum: some are traversal hazards (dangerous to c
 
 ### Zone 3 — The Broken Road (Southwest, between Hollowford and Ashford)
 **Type:** Traversal hazard
-**Size:** ~0.2 km² (linear — covers ~800m of road)
+**Size:** ~0.1 km² (linear — covers ~400m of road)
 **Backstory:** A lattice conduit beneath the western road failed during the Severance. Travel between Hollowford and Ashford now requires fighting through or taking a longer alternate route.
 **Clear condition:** Minor quest finds and partially stabilizes the conduit, reducing to a thin hazard strip. Full clearing at Verdant Flame Tier 2 standing.
 
 ### Zone 4 — The Sunken Hollow (South-central)
 **Type:** Exploration destination with dungeon entrance
-**Size:** ~0.6 km²
+**Size:** ~0.3 km²
 **Backstory:** A circular depression always avoided by local farmers — "the hollow where nothing grows right." The Severance revealed why: a sealed Firstborn vault beneath it had been leaking for centuries. Now accessible through a sinkhole.
 **Enemy composition:** Corrupted wildlife (dense), Lattice Wraiths, Undead (Dominion soldiers caught in the surge)
 **Clear condition:** Completing the Sunken Hollow dungeon stops zone expansion. Partial purification at Verdant Flame Tier 3.
 
 ### Zone 5 — The Corruption Front (Eastern Vale, spreading from Verdantheart)
 **Type:** Dynamic expansion zone — the largest and most story-relevant in the Vale
-**Size:** ~1.5 km² (Act I) → ~4 km² (Act II if unchecked)
+**Size:** ~0.8 km² (Act I) → ~2 km² (Act II if unchecked)
 **Backstory:** The primary corruption incursion from the Wellspring destabilization in Verdantheart. Predates the Severance. The Severance accelerated it dramatically.
 **Enemy composition:** Full spectrum, Act II/III difficulty at eastern edge. Contains ruins of three abandoned Vale farmsteads now serving as corrupted dungeon-lite environments.
 **Clear condition:** Addressing Wellspring events in Verdantheart main story (Act II) significantly slows growth. Cannot be cleared without Verdantheart main quest completion.
@@ -817,10 +828,27 @@ The player who chose Hollow Crown built the most intellectually sophisticated Va
 # SECTION 11: IMPLEMENTATION CHECKLIST
 
 **Map and Scale:**
-- [ ] Vale map rebuilt at 40–45 km² (down from 120 km²)
+- [ ] Vale map rebuilt at ~20 km² (down from 40–45 km²)
 - [ ] All terrain features, quadrants, and elevation zones preserved within new scale
-- [ ] Content density validated: one authored encounter per 0.4–0.5 km² target met
+- [ ] Content density validated: one authored encounter per 0.4–0.5 km² target met (~40–50 encounters across 20 km²)
 - [ ] Micro-discovery placement: no two visible from each other; confirmed by level design review
+
+**Scope Budget — Total Vale Authored Content:**
+
+| Content Type | Count | Source Doc | Notes |
+|---|---|---|---|
+| Main story beats (Vale) | ~25 | SD-03 | Includes all acts |
+| Formal side quests | ~32 | SD-08 §10 | Distributed across all locations |
+| Faction quests (Vale) | ~24 | SD-05 | 12 Act I + 12 Act II |
+| Authored encounters (non-quest) | 40–50 | SD-08 §1.2 | One per 0.4–0.5 km² |
+| Micro-discoveries | 60–80 | SD-08 §3.3 | No journal entries |
+| Corruption zones | 5 | SD-08 §7 | Each is a distinct level design effort |
+| Tier 3 hidden locations | 6 | SD-13 §2 | Full puzzle + reward design each |
+| Visual hooks (road corridors) | ~35 | SD-13 §1.2 | Many overlap with above categories |
+| Dungeons | 4 | SD-08 §9 | Full boss + loot + narrative each |
+| **Estimated unique content efforts** | **~120–150** | | **After deduplication of overlapping categories** |
+
+> **Scope note:** This budget is aggressive for a solo developer. The visual hook system and micro-discoveries are the primary density drivers — they make the world feel full. Authored encounters fill gaps but should not be prioritized over completing the quest and discovery content above them in this table. If scope pressure requires cuts, reduce authored encounters first (target floor: 30).
 
 **Fast Travel:**
 - [ ] Hub-and-spoke system implemented: 12 nodes only
@@ -878,6 +906,6 @@ The player who chose Hollow Crown built the most intellectually sophisticated Va
 
 ---
 
-*End of Document 8: Severant Vale Region Guide (v2.0)*
-*v2.0 supersedes v1.0 entirely.*
+*End of Document 8: Severant Vale Region Guide (v3.0)*
+*v3.0 supersedes v2.0 entirely.*
 *Next Document: Art Direction & Style Guide*

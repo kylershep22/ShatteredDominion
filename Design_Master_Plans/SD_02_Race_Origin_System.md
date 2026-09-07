@@ -112,7 +112,9 @@ The tutorial ends when you reach the Hollowford road and see the walls in the di
 
 ### Starting Stats & Gear
 
-**Stats:** +2 Survival, +1 Endurance
+> **System Note:** Origin stat descriptors below (Survival, Perception, Adaptability, etc.) are **narrative traits** that influence dialogue availability, NPC reactions, and origin-specific interactions. They are not direct bonuses to SD_07's six mechanical attributes (STR, AGI, INT, AWA, END, SUR). Mechanical attribute allocation occurs at character creation through player choice and racial modifiers. See SD_07 for the attribute system.
+
+**Narrative Traits:** +2 Survival, +1 Endurance
 
 **Passive Abilities:**
 - **Tracker:** Highlight animal tracks and creature trails in the environment. Identify creature type and direction of travel. Functions as an exploration aid and early-warning system.
@@ -179,7 +181,7 @@ The tutorial ends when the player escapes the ruin into daylight and sees the af
 
 ### Starting Stats & Gear
 
-**Stats:** +2 Perception, +1 Intelligence
+**Narrative Traits:** +2 Perception, +1 Intelligence
 
 **Passive Abilities:**
 - **Relic Sense:** Detect Firstborn artifacts, hidden ruin entrances, and active lattice conduits through walls and obstacles within a 20m radius. Displayed as a subtle visual pulse in the environment. The range and clarity improve as the player levels Perception.
@@ -324,7 +326,7 @@ The tutorial ends at the border of Verdantheart, looking out into the Vale — a
 
 ### Starting Stats & Gear
 
-**Stats:** +2 Adaptability, +1 Willpower
+**Narrative Traits:** +2 Adaptability, +1 Willpower
 
 **Passive Abilities:**
 - **Accelerated Learning:** +15% XP bonus for the first time the player performs any action category (first kill with a new weapon type, first successful persuasion, first crafting attempt, first relic interaction, etc.). Reflects the Newly Awakened's sponge-like capacity for new experience. Diminishes as the player levels — the XP bonus drops to +10% at level 10, +5% at level 20, and disappears at level 30.
@@ -388,7 +390,7 @@ The tutorial ends on the road to Hollowford. You're alone, bleeding, carrying su
 
 ### Starting Stats & Gear
 
-**Stats:** +2 Independence, +1 Charisma
+**Narrative Traits:** +2 Independence, +1 Charisma
 
 **Passive Abilities:**
 - **Cultural Bridge:** Fluent in human language and social norms. No language barrier with human NPCs (unlike Newly Awakened). Access to human social spaces that other Vaelari are excluded from. Can pass for "mostly human" in initial interactions if wearing concealing clothing — though prolonged interaction or physical inspection reveals the truth.
@@ -521,7 +523,7 @@ Tutorial ends in the wilderness outside the fracture zone. The player is alone, 
 
 ### Starting Stats & Gear
 
-**Stats:** +3 Arcane Power (unique — Fracture Core is the only origin with a +3 bonus, offset by having no second stat bonus and harsher starting conditions)
+**Narrative Traits:** +3 Arcane Power (unique — Fracture Core is the only origin with a +3 narrative trait bonus, offset by having no second trait bonus and harsher starting conditions)
 
 **Passive Abilities:**
 - **Volatile Conduit:** Overload's controlled window is 20% wider (easier to hit the sweet spot), but uncontrolled Overload deals 25% more self-damage. Higher ceiling, lower floor.
@@ -583,7 +585,7 @@ Tutorial covers:
 
 ### Starting Stats & Gear
 
-**Stats:** +2 Empathy, +1 Perception
+**Narrative Traits:** +2 Empathy, +1 Perception
 
 **Passive Abilities:**
 - **Human Passing:** With concealing clothing equipped (hood, gloves), the player's Aetherborn nature is not immediately detected in casual social interactions. Guards don't flag you. Merchants serve you normally. NPCs treat you as a slightly odd human. However: prolonged interaction (quest dialogues, faction meetings, companion scenes), physical contact, or removing concealing clothing reveals the truth. Once an NPC knows, they know permanently — and their reaction depends on their disposition.
@@ -637,7 +639,7 @@ Dara is alive — but the Vanguard has flagged them as a Severance-anomaly sympa
 
 ## 5.2 Origin Comparison
 
-| Race | Origin | Key Stat Bonus | Starting Social Position | Exclusive Quest Theme |
+| Race | Origin | Narrative Traits | Starting Social Position | Exclusive Quest Theme |
 |---|---|---|---|---|
 | Human | Frontier Settler | +2 Survival, +1 Endurance | Trusted by common folk, ignored by elites | Loss, community, rebuilding |
 | Human | Relic Hunter | +2 Perception, +1 Intelligence | Respected by scholars, blamed by many | Knowledge, guilt, proof |

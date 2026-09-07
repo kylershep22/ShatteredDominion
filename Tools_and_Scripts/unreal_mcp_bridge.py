@@ -12,7 +12,7 @@ UE_HOST = "127.0.0.1"
 UE_PORT = 55557
 TIMEOUT = 10
 
-mcp = FastMCP("unreal-engine")
+mcp = FastMCP("unreal-engine", host="127.0.0.1", port=8100)
 
 
 def send_command(cmd_type: str, params: dict | None = None) -> dict:
@@ -574,4 +574,6 @@ def add_widget_to_viewport(widget_name: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    import sys
+    transport = sys.argv[1] if len(sys.argv) > 1 else "sse"
+    mcp.run(transport=transport)

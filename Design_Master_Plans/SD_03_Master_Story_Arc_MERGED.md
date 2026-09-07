@@ -312,7 +312,7 @@ Regardless of the player's response, Seraphine shares one piece of information f
 
 The Echo's reaction is immediate and intense — a burst of coherent emotion. Fear. Recognition. And something like grief: *"That name. That's... I know that name. That's who I was."*
 
-**Seraphine does not join the party in Act I.** Her recruitment (or antagonist arc) is an Act II development. This quest establishes the relationship's foundation.
+**Seraphine does not join the party in Act I.** Her recruitment occurs during Act II's "The Companion in the Dark." All three branches (Accept, Deny, Exploit) result in Seraphine joining the party — the branch determines her relationship state (Reformed, Hostile, or Strained), not her presence. This quest establishes the relationship's foundation.
 
 **Completion:** Lore revelations (Erevos named, lattice shutdown confirmed as deliberate). The main quest "The Deep Wound" activates.
 
@@ -498,7 +498,7 @@ Additionally: the Scepter of Ascension is mentioned. It was stored in the Ashenv
 
 *Branch A — "Accept the Truth":* If the player has built trust with Seraphine and chooses direct, empathetic dialogue: Seraphine breaks — quietly, not dramatically. She sits. Long silence. Then: *"If everything I was taught is wrong... what am I supposed to do now?"* If the player offers genuine partnership (not pity, not manipulation — respect and a shared goal), Seraphine joins the party. She's shaken, re-evaluating everything, but her intelligence and resources now point toward truth rather than fiction. Hollow Crown moderates follow her lead. Hardliners begin to fracture.
 
-*Branch B — "Deny the Truth":* If trust is low, or if the player pushed too hard, or if Seraphine's political position is threatened: she doubles down. Declares the record a Firstborn deception. She becomes more authoritarian, more dangerous. She does not join the party. She becomes a secondary antagonist in Act III — a political obstacle and potential combat encounter. Her forces compete with the player for the Archive and the Scepter.
+*Branch B — "Deny the Truth":* If trust is low, or if the player pushed too hard, or if Seraphine's political position is threatened: she doubles down. Declares the record a Firstborn deception. She becomes more authoritarian, more rigid. She joins the party at Hostile relationship state (-20 to -39) — not because she trusts the player, but because the Hollow Crown's internal fractures (accelerated by Lord Harren's power play and the Ashenveil revelation) leave her without an independent power base by mid-Act III. She enters the party through political exhaustion, not persuasion. She is angry, does not concede the player is right, and actively argues against the player's choices at key moments. Her trajectory toward reconciliation is possible but not guaranteed — some playthroughs end with a Seraphine who never forgives the player.
 
 *Branch C — "Exploit the Truth":* The player can threaten to reveal the Eltaryn lie publicly unless Seraphine cooperates unconditionally. This works — Seraphine capitulates, providing full archive access and Hollow Crown resources. But the relationship is poisoned. She cooperates out of fear, not conviction, and may betray the player in Act III if given the opportunity.
 
@@ -512,7 +512,7 @@ Additionally: the Scepter of Ascension is mentioned. It was stored in the Ashenv
 
 **Pre-Dungeon:** The player assembles the cipher device and approaches the Archive entrance — a massive Firstborn door set into a cliff face in the southern Vale badlands. Visible for centuries, impenetrable until now. With the cipher and the relic, the door opens.
 
-Faction presence at the entrance depends on the player's Act II choices: allied factions send support teams; hostile factions may attempt to follow inside; if Seraphine is an antagonist, Hollow Crown forces are a persistent threat throughout.
+Faction presence at the entrance depends on the player's Act II choices: allied factions send support teams; hostile factions may attempt to follow inside. If Seraphine is a Hostile Ally (Branch B), Hollow Crown loyalists may independently attempt interference at the entrance — but Seraphine herself is in the party and cannot command them against the player directly. This creates tension between her factional identity and her in-party status.
 
 **The Ashenveil Archive (Dungeon — 6–10 hours)**
 
@@ -583,7 +583,7 @@ The Echo: *"The Heart is down there. The Consciousness is down there. I am down 
 
 **Reavers (Varek):** *"I don't want the Scepter. I want what you promised me from the Archive — Firstborn military technology. And I want a seat at the table when you decide the future. No more being shut out by institutions."* If Maren is a companion, she offers a private assessment: *"Varek means it about the seat. He'll burn everything if he's ignored. But he'll negotiate if you respect him."*
 
-**Hollow Crown (Seraphine):** Her demand depends on her arc. If allied: *"Let me study the Scepter. Not keep it — study it. I've lost my claim to divine right. Let me earn a different kind of authority — the authority of understanding."* If antagonist: *"Give me the Scepter or I'll take it. You have no legitimacy. I have an army."*
+**Hollow Crown (Seraphine):** Her demand depends on her arc. If reformed (Branch A): *"Let me study the Scepter. Not keep it — study it. I've lost my claim to divine right. Let me earn a different kind of authority — the authority of understanding."* If Hostile Ally (Branch B): *"I should have the Scepter. You know that. I know that. But I don't have the mark, and I don't have the allies, and I don't have the leverage. So I'm asking — not demanding — that you remember I understand Firstborn systems better than anyone else in this party. When the time comes, listen to me."* If coerced (Branch C): *"I don't trust you with it. But I trust you more than I trust myself right now. That's the best I can offer."*
 
 The player cannot satisfy everyone. Every promise to one faction is a slight to another. These decisions set the faction-war conditions for Act III.
 
@@ -609,7 +609,7 @@ The path to the Heart of the Lattice is open. The factions are at war. The compa
 
 Act III operates on two planes simultaneously:
 
-**Above:** The faction war. The Vale is fracturing. Vanguard forces enforce martial law. Verdant Flame radicals sabotage Vanguard operations. Reavers arm refugees and spark uprisings. Hollow Crown forces (if antagonistic) seize territory. The player's above-ground actions affect which factions survive intact to see the ending.
+**Above:** The faction war. The Vale is fracturing. Vanguard forces enforce martial law. Verdant Flame radicals sabotage Vanguard operations. Reavers arm refugees and spark uprisings. Hollow Crown hardliners (if Seraphine is Branch B — Hostile Ally) operate independently of Seraphine's in-party status, seizing territory under Lord Harren or other loyalist leadership. The player's above-ground actions affect which factions survive intact to see the ending.
 
 **Below:** The descent to the Heart. A linear dungeon crawl through the deepest lattice infrastructure, culminating in the confrontation with Erevos and the Consuming Consciousness.
 
@@ -647,11 +647,11 @@ Outcomes:
 - Expose Varek's role in the Severance (the storm engine activation). If this evidence was gathered during Act II and revealed publicly, Varek's populist support evaporates. He's diminished but not destroyed.
 - Confront Varek directly. Boss-tier combat encounter with Reaver reinforcements. Killing him ends the Reaver threat but eliminates a potential endgame variable. Maren's reaction depends on her arc.
 
-**Mission: "The Crown Falls" (Hollow Crown resolution — only if Seraphine is antagonist)**
+**Mission: "The Hollow Crown Reckoning" (Hollow Crown resolution — all Seraphine states)**
 
-Seraphine's forces have seized the Archive entrance and are attempting to breach the Heart independently. She's desperate, brilliant, and wrong. Stop her through direct confrontation, political isolation (turning her own nobles against her), or a final attempt at persuasion.
+The Hollow Crown's future is decided through Seraphine's in-party arc, not a separate confrontation mission. If reformed (Branch A): Seraphine's personal quest resolves here — a quieter arc about building new authority on merit and confronting Lord Harren's loyalists politically. If Hostile Ally (Branch B): a high-tension companion scene where Seraphine's remaining loyalists confront her about siding with the player, forcing her to publicly choose between the party and her faction's remnants. She chooses the party — reluctantly, bitterly, and without pretending it doesn't cost her everything. If coerced (Branch C): Seraphine negotiates a fragile peace between the Crown's moderates and the player's coalition, leveraging fear of the lattice collapse to hold the alliance together.
 
-*If Seraphine is a companion, this mission is replaced by her personal quest resolution (detailed in Companion Design Document) — a quieter arc about accepting the truth and finding new purpose.*
+> **Design Note (v2.2):** "The Crown Falls" mission from v2.1 has been removed. Under the adopted Seraphine party model (see SD_04 §1.2), Seraphine cannot permanently leave the party. The Hollow Crown's Act III resolution occurs through in-party dramatic beats, not a separate combat/confrontation mission. Authored content from the original "Crown Falls" design has been redistributed into the Branch B companion scene described above.
 
 ## 5.3 Main Quest: "The Heart Road" (Hours 45–55) — The Final Descent
 
@@ -906,7 +906,7 @@ ORIGIN OPENING (race/origin specific — see SD_02)
     ├── Fragment Beta: Wellspring Border
     └── Fragment Gamma: Varek's Price
     ↓  [can overlap with ↓]
-"The Companion in the Dark" (Seraphine inflection — ally/antagonist/coerced)
+"The Companion in the Dark" (Seraphine inflection — reformed/hostile/coerced — all states result in party membership)
     ↓
 "The Ashenveil Archive" (7-level dungeon — full truth, Scepter recovered)
     ↓
@@ -914,11 +914,11 @@ ORIGIN OPENING (race/origin specific — see SD_02)
     ↓
 ══════════════ ACT III ══════════════
     ↓
-"The War Above" (3–4 surface missions, flexible order)
+"The War Above" (3 surface missions, flexible order)
     ├── "Chain of Command" (Vanguard resolution)
     ├── "The Burning Circle" (Verdant Flame resolution)
     ├── "The Reckoning of Seven-Knives" (Reaver resolution)
-    └── "The Crown Falls" (Hollow Crown resolution — if antagonist)
+    └── "The Hollow Crown Reckoning" (Hollow Crown resolution — all Seraphine states, in-party)
     ↓
 "The Heart Road" (Final dungeon — 4 stages)
     ↓
@@ -939,7 +939,7 @@ POST-CREDITS: "Beyond the Crown"
 | Kael Thornwright | Act I, "A Place to Stand" Lead A | Complete the Vanguard patrol | No — if missed, re-recruitable in Act II via Vanguard questline |
 | Aelira Wynnroot | Act I, "A Place to Stand" Lead B | Complete the Verdant Flame node survey | No — if missed, re-recruitable in Act II via Verdant Flame questline |
 | Maren Duskwell | Act I, "Fracture Point" (crisis aftermath) | Engage in post-crisis conversation | Yes — if the player ignores her approach, she remains a recurring NPC but doesn't join the party. Re-recruitable in mid-Act II through a Reaver-adjacent quest. |
-| Lady Seraphine Eltaryn | Act II, "The Companion in the Dark" | Navigate the crypt revelation successfully (Branch A) | Yes — Seraphine can become an antagonist or a coerced ally. Recruitment requires trust threshold and specific dialogue choices in Branch A. |
+| Lady Seraphine Eltaryn | Act II, "The Companion in the Dark" | All three branches result in party membership | No — Seraphine always joins the party. Branch determines relationship state: Reformed (Branch A, 20+), Hostile (Branch B, -20 to -39), or Strained (Branch C, -1 to -19). Cannot be permanently lost. |
 
 ---
 
@@ -981,4 +981,4 @@ The player should learn the following truths in this order. No truth should be r
 
 ---
 
-*Canonical: Four-ending structure confirmed (Endings A–D). Act I finale location confirmed as North Wall ("Fracture Point"). No open structural decisions remaining in this document.*
+*Canonical: Three-ending structure confirmed (Endings A–C). Ending D (Integration) extracted to SD_03_Appendix_Ending_D_Integration.md as expansion-only content. Act I finale location confirmed as North Wall ("Fracture Point"). Seraphine party model updated v2.2 — see SD_04 §1.2. No open structural decisions remaining in this document.*

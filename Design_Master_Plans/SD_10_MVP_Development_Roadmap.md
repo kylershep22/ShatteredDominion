@@ -3,6 +3,15 @@
 
 **Purpose:** This document translates the full design vision of The Shattered Dominion into a structured development plan. It covers the complete scope of the designed game, a realistic phased development approach, a minimum viable core for resource-constrained scenarios, technical risk identification and mitigation, and a post-launch expansion roadmap.
 
+**Revision 1.1 — 2026-04-06:**
+The following scope and design decisions supersede full-scope descriptions in Sections 2 and 3 where they conflict:
+
+1. **SD_12 Homestead System** — Launch scope limited to Phases 1–3 (Farmstead through Manor Estate, maximum ~15 workers). Opportunistic Bandit raids ship at launch as the sole defense event type — low-threat, no faction triggers, no equipment policy required. All other defense content (Notable Threshold, organized raid types, equipment policies, palisade and watchtower construction, faction awareness progression) is deferred to post-launch expansion alongside Village and Township tier content (Phases 4–5 per SD_12 §11.1). The Steward NPC and basic incident system ship at launch. All homestead content at or below Manor Estate tier ships at launch.
+
+2. **SD_11 Economy System** — Ships at full scope as documented.
+
+3. **SD_04 Companion Design** — Seraphine cannot permanently leave the party. Branch B resolves to Hostile Ally status (new relationship tier: -20 to -39) following "The Crown Falls." Branch C resolves to Strained (-1 to -19). Both states are in-party. Branch B Seraphine's trajectory toward reconciliation is possible but not guaranteed — some playthroughs end with a Seraphine who never forgives the player, and her epilogue reflects that. The "Gone" state is removed for Seraphine. Full behavioral specification in SD_05 §4.5 and SD_04 §5.
+
 **Framing:** This roadmap is a design bible document — aspirational, comprehensive, and explicitly dependent on appropriate funding and team size to execute as written. The full scope described across Documents 1–9 represents a AAA-adjacent production requiring a well-resourced team and timeline. Two versions of the plan are presented: the **Full Vision** (what the game should be with appropriate resources) and the **Constrained Core** (what the game must be to deliver its identity even with limited resources). Every production decision should be made with clarity about which version is being pursued.
 
 **Scope note:** The design documents collectively describe a game of significant ambition — comparable in content scope to The Witcher 3: Wild Hunt or Dragon Age: Origins. Productions of that scale required 200–240 person teams over 3.5–4 years. A 10–25 person team cannot execute the full scope in any timeline without cuts. A 50–80 person team with 4–5 years can execute it with discipline. This document presents the full vision; the Constrained Core section identifies what a smaller team must protect.
@@ -35,7 +44,7 @@ Before planning production, the full scope must be understood explicitly. This a
 ### World Content
 | Category | Quantity |
 |---|---|
-| Primary playable region | Severant Vale (40–45 km²) |
+| Primary playable region | Severant Vale (~20 km²) |
 | Secondary playable region | Verdantheart Wilds (referenced in story) |
 | Hollowford districts | 5 + Undercity (3 layers) |
 | Frontier settlements (full) | 4 |
@@ -81,7 +90,7 @@ Before planning production, the full scope must be understood explicitly. This a
 
 ## 1.2 Honest Scope Assessment
 
-This game, as fully designed, is a **4–5 year, 60–80 person production** at minimum. It is not a solo or micro-team project. It is not a 2–3 year project at any team size. The content volume (35,000–50,000 voiced lines alone represents 18–24 months of voice production pipeline work at a typical pace), the systems complexity (the economic system, dynamic world states, and crafting disciplines each represent significant engineering work), and the art requirements (custom Firstborn materials, 45+ enemy types, 40–45 km² of authored environment) combine to create a production scope that demands appropriate resourcing.
+This game, as fully designed, is a **4–5 year, 60–80 person production** at minimum. It is not a solo or micro-team project. It is not a 2–3 year project at any team size. The content volume (35,000–50,000 voiced lines alone represents 18–24 months of voice production pipeline work at a typical pace), the systems complexity (the economic system, dynamic world states, and crafting disciplines each represent significant engineering work), and the art requirements (custom Firstborn materials, 45+ enemy types, ~20 km² of authored environment) combine to create a production scope that demands appropriate resourcing.
 
 This is stated plainly, not as a discouragement, but because the most common cause of ambitious game projects failing is underestimating scope at the outset and making irrevocable decisions based on that underestimate.
 
@@ -535,7 +544,7 @@ The five largest cost drivers in this production, in order of magnitude:
 35,000–50,000 lines across 35+ voice performers, with recording sessions, direction, implementation engineering, and QA. This is the single largest variable cost in the production. Planning the voice pipeline from Month 6 onward (not as a late-stage production item) is critical to managing this cost.
 
 **2. World art and environment (~20–25% of total budget):**
-40–45 km² of authored environment at grounded realism standard, custom Firstborn materials, 4 dungeon tile sets, dynamic corruption zone visual states. The environment art team is the largest single art department and the one with the longest lead time per asset.
+~20 km² of authored environment at grounded realism standard, custom Firstborn materials, 4 dungeon tile sets, dynamic corruption zone visual states. The environment art team is the largest single art department and the one with the longest lead time per asset.
 
 **3. Animation (~12–15% of total budget):**
 45+ enemy types with full attack/death/idle animation sets, all weapon types with distinct combat animations, companion facial animation systems, cutscene animation for major narrative moments. Animation is chronically underestimated in RPG productions.

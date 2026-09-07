@@ -37,10 +37,13 @@
 |---|---|---|
 | 80–100 | **Deep Bond** | Full trust. Shares deepest fears and hopes. Unique combat synergy unlocked. Will follow the player into any ending, even one they disagree with — though they'll say so. |
 | 50–79 | **Trusted Ally** | Reliable partnership. Open in conversation. Shares personal history. Completes personal quest arc. |
-| 20–49 | **Professional** | Cordial but guarded. Follows instructions. Limited personal sharing. Will leave if pushed too far. |
-| 0–19 | **Strained** | Tense. Argues frequently. May refuse specific requests. One more serious conflict could break the relationship. |
-| -1 to -50 | **Hostile** | Has left the party. May appear as an NPC antagonist in Act III. Can potentially be recovered with extraordinary effort (specific quest, high cost). |
-| -51 to -100 | **Gone** | Permanently departed. No recovery possible. Their fate is determined by the ending without player input. |
+| 20–49 | **Professional** | Cordial but guarded. Follows instructions. Limited personal sharing. |
+| 0–19 | **Strained** | Tense. Argues frequently. May refuse specific requests. One more serious conflict could push the relationship negative. |
+| -1 to -19 | **Cold** | Minimal voluntary interaction. Follows tactical instructions. Will not share personal information. Can recover with sustained investment. |
+| -20 to -39 | **Hostile** | Openly combative. Disagrees vocally with player decisions. Remains in-party but actively argues against the player's choices. Trajectory toward reconciliation is possible but not guaranteed. |
+| -40 to -100 | **Deeply Hostile** | Functional cooperation only. No personal engagement. Epilogue fate reflects permanent estrangement. |
+
+> **Design Note (v1.2):** The "Gone" relationship state (permanent departure) has been removed. No companion permanently leaves the party at launch. Seraphine's Branch B enters at Hostile (-20 to -39). Branch C enters at Strained (0 to 19). See §5.7 for branch-specific outcomes.
 
 **Approval and Disapproval Events:**
 - **Minor** (+/- 2–5): Dialogue choices, small behavioral observations. "I agree with how you handled that" / "That wasn't necessary."
@@ -540,7 +543,7 @@ At the Heart of the Lattice (if present), Seraphine's input is the voice of temp
 
 **Quest 1: "The Eltaryn Letters" (Early Act II)**
 
-> **Gating:** Available to any player who has met Seraphine in "The Fourth Voice." Does not require companion recruitment — this quest precedes and contributes to "The Companion in the Dark." If Seraphine becomes an antagonist (Branch B) or coerced ally (Branch C), the letters were still discovered during this quest; her arc's branch determines what she ultimately did with that knowledge. "The Eltaryn Letters" is not gated behind Branch A.
+> **Gating:** Available to any player who has met Seraphine in "The Fourth Voice." Does not require companion recruitment — this quest precedes and contributes to "The Companion in the Dark." Regardless of which branch Seraphine enters (reformed/hostile/coerced), the letters were still discovered during this quest; her arc's branch determines what she ultimately did with that knowledge. "The Eltaryn Letters" is not gated behind Branch A.
 
 Seraphine asks the player to help her access a sealed section of the Eltaryn archives — family correspondence spanning centuries. She's looking for evidence of the Firstborn connection (before she knows it's a lie). The letters reveal something more immediately personal: her mother, who died when Seraphine was twelve, was planning to abdicate and dissolve House Eltaryn's claim. She believed the divine right was a "comforting fiction that has become a dangerous one."
 
@@ -592,8 +595,13 @@ Seraphine tells the truth, builds a new authority on merit, and becomes the poli
 **Good Case — The Flawed Ally:**
 Seraphine joins the player but never fully resolves her identity crisis. She's effective, brilliant, and unreliable in moments of personal stress. Post-ending, she leads a reformed Hollow Crown — better than the old one, but still built on compromise.
 
-**Antagonist Case — The Desperate Queen:**
-Seraphine rejects the truth and pursues the Scepter as a tool of dynastic control. She's a secondary antagonist in Act III — not a final boss, but a significant obstacle with her own forces, strategy, and (tragically) genuine belief that she's doing the right thing. Defeating her doesn't require killing her — the player can dismantle her support, confront her with undeniable evidence, or physically defeat her in combat. Her fate post-defeat depends on player choice: imprisonment, exile, or (if the player has even a shred of connection) a final offer of redemption.
+**Hostile Ally Case — The Bitter Companion:**
+Seraphine rejects the truth in the crypt and doubles down on the Eltaryn claim. By mid-Act III, the Hollow Crown's internal fractures — accelerated by Lord Harren's power play and the Ashenveil revelation — leave her without an independent power base. She enters the party at Hostile relationship state (-20 to -39) through political exhaustion, not persuasion. She is angry, does not concede the player is right, and actively argues against the player's choices at key moments. She is Seraphine at her sharpest and most defensive — brilliant, combative, and tragically certain that the world needs the kind of control she can no longer provide. Her trajectory toward reconciliation is possible but not guaranteed. Some playthroughs end with a Seraphine who never forgives the player, and her epilogue reflects permanent estrangement. Post-ending (if never reconciled): she departs the party after the crisis concludes and disappears into isolation. Her history book, if written, is bitter, brilliant, and incomplete.
+
+**Coerced Ally Case — The Reluctant Convert:**
+Seraphine was dragged to honesty against her will and intellectually concedes the truth even as she resents the process. She cooperates grudgingly. Her arc is about someone slowly, painfully coming around. Relationship floor: Strained (0 to 19). Trajectory: upward if the player invests.
+
+> **Design Note (v1.2):** The 'Gone' state is removed for Seraphine. She cannot permanently leave the party. Both Branch B and Branch C result in an in-party Seraphine. The distinction between them is emotional range and trajectory, not presence.
 
 **Abdication Case — The Free Woman:**
 If Seraphine dissolves House Eltaryn, she enters Act III without a faction, without resources, and without identity — but with a clarity no other version of her possesses. She's the most emotionally honest version of Seraphine and the most militarily useless. Post-ending, she disappears into scholarship. She writes the definitive history of the Severant Dominion — and it's the first honest account ever produced.
@@ -621,22 +629,31 @@ Each companion has a preference, but a companion at Deep Bond will follow the pl
 - Kael: Builds a peacekeeping force focused on managing the centuries-long transition. Finds purpose in the long mission.
 - Aelira: Leads Verdant Flame conservation efforts. Finally at peace — the lattice ends as intended, and she helps it end gently.
 - Maren: Establishes a legitimate trade network. Puts down roots for the first time. If Deep Bond: stays near the player.
-- Seraphine (reformed): Establishes transitional governance. Her administrative brilliance finally serves something real.
-- Seraphine (antagonist, defeated): Exiled. Writes her history in isolation.
+- Seraphine (Branch A — reformed): Establishes transitional governance. Her administrative brilliance finally serves something real.
+- Seraphine (Branch B — hostile, never reconciled): Departs the party after the crisis concludes. The long timeline of Guided Dissolution gives her room she didn't expect — she settles in a border town, far from the Vale's politics, and writes a history of the Severant Dominion that is bitter, brilliant, and unexpectedly honest. She never contacts the player. *(Post-ending departure — she was in-party through the Heart of the Lattice.)*
+- Seraphine (Branch B — hostile, reconciled): Remains in the Vale. Serves as an unofficial advisor to whatever governance emerges — not out of loyalty to the player, but because she cannot stop herself from trying to fix things. The relationship is professional, cautious, and marked by mutual respect that neither of them would call friendship.
+- Seraphine (Branch C — coerced, improved): Leads a reformed Hollow Crown — better than the old one, still built on compromise. The long timeline of Guided Dissolution gives her space to grow into the leader she was dragged toward becoming. Not the Honest Leader of Branch A, but an adequate one. Her history book is more balanced than she expected it to be.
+- Seraphine (Branch C — coerced, stagnant): Maintains the Hollow Crown as a diminished institution. Never fully resolves her identity crisis. Effective but brittle. Post-ending, she is a competent administrator haunted by the version of herself she might have been.
 
 **Ending B — Override:**
 - Kael: Serves as the military arm of the new order. Effective but uneasy — he remembers what happened the last time someone controlled the lattice.
 - Aelira: Returns to the Circle. Monitors the lattice with deep suspicion. Publishes warnings about dependency. She was right before. She'll be right again.
 - Maren: Thrives in the stability. Builds a network. Keeps an eye on whoever controls the Scepter — "Insurance," she calls it.
-- Seraphine (reformed): Advises the player's governance. Her understanding of power dynamics is invaluable. Privately fears the player is becoming what she almost was.
-- Seraphine (antagonist, defeated): Imprisoned or in exile. Vindicated in her own mind — someone did take control. Just not her.
+- Seraphine (Branch A — reformed): Advises the player's governance. Her understanding of power dynamics is invaluable. Privately fears the player is becoming what she almost was.
+- Seraphine (Branch B — hostile, never reconciled): Departs the party after the crisis concludes. Vindicated in her own mind — someone did take control, just not her. The control structure of Override gives her old instincts something to latch onto. She writes a political treatise arguing that the player's authority is legitimate but structurally identical to the Dominion's. She is not wrong. *(Post-ending departure — she was in-party through the Heart of the Lattice.)*
+- Seraphine (Branch B — hostile, reconciled): Serves in the new governance structure. Her understanding of institutional power makes her invaluable. The relationship with the player is functional but shadowed — she respects the player's competence while privately believing Override proves her worldview was correct all along.
+- Seraphine (Branch C — coerced, improved): Advises governance with increasing confidence. Override's structure appeals to her administrative instincts. She's better than she was, but the control-oriented ending lets her avoid fully confronting the identity work Branch A would have demanded.
+- Seraphine (Branch C — coerced, stagnant): Plateaus. The control structure of Override gives her old instincts something to latch onto. She's better than the old Seraphine but not what she could have been.
 
 **Ending C — Severance Complete:**
 - Kael: Devastated but functional. Organizes survival efforts in the aftermath. Doesn't forgive the player for choosing principle over people. If Deep Bond: stays anyway.
 - Aelira: Grieves the Wellspring's transformation. Her people are diminished. She throws herself into helping the Vaelari adapt. She understands the choice. She hates the cost.
 - Maren: Survives. She always survives. If Deep Bond: she's angry, grieving, and present. "You chose this. I chose you. Don't make me regret both."
-- Seraphine (reformed): Shatters. Everything she tried to build, even the honest version, is gone. Rebuilds slowly, painfully. Her history book becomes a memorial.
-- Seraphine (antagonist, defeated): The game doesn't specify. Her fate is left uncertain — "Lady Eltaryn was not among the survivors found in the weeks following the Severance's completion."
+- Seraphine (Branch A — reformed): Shatters. Everything she tried to build, even the honest version, is gone. Rebuilds slowly, painfully. Her history book becomes a memorial.
+- Seraphine (Branch B — hostile, never reconciled): Disappears. Her fate is left uncertain — "Lady Eltaryn was not among those who remained in the Vale in the months following the Severance's completion." Whether this is death, exile, or deliberate vanishing is never confirmed. *(Post-ending departure — she was in-party through the Heart of the Lattice.)*
+- Seraphine (Branch B — hostile, reconciled): Shatters harder than Branch A — she never fully accepted the truth, and now the world that validated her denial is gone. Rebuilds slower, angrier, and with more visible scars. If she writes anything, it is a single letter to the player that is never sent.
+- Seraphine (Branch C — coerced, improved): Shatters and rebuilds. Slower than Branch A, faster than hostile-reconciled. Her history book is a memorial written by someone who was still learning how to be honest when the world ended.
+- Seraphine (Branch C — coerced, stagnant): Breaks. Without the external structure that was holding her together, she has nothing. Her fate is quiet and sad — she survives, but does not rebuild. She is last mentioned living in a border settlement, alone.
 
 > **Ending D (Integration)** companion fates have been moved to `SD_03_Appendix_Ending_D_Integration.md` — expansion content only.
 
@@ -698,12 +715,16 @@ For each companion at launch, the following must be created:
 - [ ] Response to each of the three endings (voiced, animated)
 - [ ] Epilogue narration per companion per ending (2–3 sentences, 9 variations per companion = 36 total)
 
+**Seraphine — Hostile Ally System:**
+- [ ] Hostile Ally relationship tier implemented (-20 to -39) — dialogue tone, combat behavior, stronghold presence, and personal quest variant for Branch B Seraphine
+- [ ] Branch B epilogue states authored — including "never reconciled" variant
+
 **Estimated Content Per Companion:**
 - 2,000–4,000 voiced dialogue lines (main quest, personal quests, ambient)
 - 3 personal quests with branching outcomes
 - 2 talent trees (6–8 abilities each)
 - 4–6 branching final states
-- 3 ending-specific epilogues
+- 3 ending-specific epilogues (with arc-variant sub-entries for Seraphine's three branch states)
 
 **Total Companion Content:**
 - 8,000–16,000 voiced dialogue lines across four companions

@@ -22,6 +22,9 @@
 - Township world-acknowledgment events authored (five specific events)
 - Section 1.1 "world notices" language grounded with specific authored content
 
+**Revision 1.1 Scope Note — 2026-04-06:**
+Launch scope is limited to Phases 1–3 (Farmstead through Manor Estate, maximum ~15 workers per SD_12 §11.1). The following content is fully designed in this document but deferred to post-launch expansion: Village tier (Phase 4), Township tier (Phase 5), the full defense system (§10) including Notable Threshold, organized raid types, equipment policies, palisade and watchtower construction, and faction awareness progression. Exception: Opportunistic Bandit raids (the lowest-complexity raid type in §10) ship at launch as the sole defense event. They require no equipment policy, no palisade, and no faction trigger — they are a light threat that primes players for the post-launch defense expansion. All other §10 content remains deferred. This note supersedes any full-scope language in §10 and §11 for production planning purposes.
+
 **Authority Note:** This document is the authoritative specification for the Homestead and Settlement Building System. It supersedes and replaces SD_11 Section 6 (Property and Business Ownership) **for the Homestead system only**. SD_11 Section 6 commercial property types (Storefronts, Warehouses, Information Broker Offices, Taverns) remain valid and are a separate, complementary system. Where this document contradicts SD_11 Section 6, SD_12 takes precedence. SD_11 should be updated to reference SD_12 for homestead content.
 
 **Design Reference:** The Shattered Dominion is a game about rebuilding something in a world that just broke. The homestead system is that idea made physical. It is not a distraction from the main game — it is a place the player makes real over time, and then wants to come back to.

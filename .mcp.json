@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "unreal-mcp": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "Tools_and_Scripts/unreal_mcp_bridge.py",
+        "stdio"
+      ],
+      "env": {}
+    }
+  }
+}

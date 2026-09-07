@@ -1,6 +1,6 @@
 # THE SHATTERED DOMINION — PROJECT CONTEXT FILE
 ### Claude Reference Document | Always Read Before Working on This Project
-**Version:** 1.1 | **Maintained By:** Kyle | **Last Updated:** March 2026
+**Version:** 1.2 | **Maintained By:** Kyle | **Last Updated:** April 2026
 **Engine:** Unreal Engine 5.7
 **3D Pipeline:** Blender (source) → FBX export → UE5.7 import
 
@@ -57,8 +57,21 @@ Do not make assumptions about things not covered here. If something is unclear, 
 | `SD_07_Combat_Build_Framework.md` | Combat & Build Framework | ✅ Canonical (v3.0) | Act IV zone scaling reference corrected — consolidated into Act III. |
 | `SD_08_Severant_Vale_Region_Guide.md` | Severant Vale Region Guide | ✅ Canonical (v2.0) | Section 9.3 rewritten 2026-03-20 with full Act III alignment world states. Act III/IV reference corrected. |
 | `SD_09_Art_Direction_Style_Guide.md` | Art Direction & Style Guide | ✅ Canonical | SD_08 dependency now satisfied. |
-| `SD_10_MVP_Development_Roadmap.md` | MVP Development Roadmap | ✅ Canonical | Depends on all above. Act IV references corrected to three-act structure. |
+| `SD_10_MVP_Development_Roadmap.md` | MVP Development Roadmap | ✅ Canonical (Rev 1.1) | Depends on all above. Act IV references corrected to three-act structure. Revision 1.1 (2026-04-06) adds SD_12 homestead scope, SD_11 full scope, SD_04 Seraphine changes. |
+| `SD_11_Economy_System.md` | Economy System | ✅ Canonical (v1.0) | Supersedes SD_05 §6. Authoritative spec for currency, merchants, trade routes, property, production chains, living price index. Faction economic warfare remains in SD_05 §6.5. |
+| `SD_12_Settlement_Homestead_System_v3.md` | Settlement & Homestead System | ✅ Canonical (v3.0, Rev 1.1) | Worker needs, defense, township tiers. Revision 1.1 (2026-04-06): launch limited to Phases 1–3 (~15 workers max), Opportunistic Bandit raids only defense event at launch. |
+| `SD_13_World_Exploration_Puzzle_Design.md` | World Exploration & Puzzle Design | ✅ Canonical (v1.0) | Wilderness traversal, three-tier discovery system, six puzzle types, six Tier 3 hidden locations. SD_15 supersedes §4.2 cell-size values. |
+| `SD_14_Professional_Orders_System.md` | Professional Orders System | ✅ Canonical (v1.0) | Three joinable non-political professional institutions. Rank hierarchies, exclusive mechanical rewards, order questlines. |
+| `SD_15_World_Partition_Technical_Reference.md` | World Partition Technical Reference | ✅ Canonical (v1.0) | UE5 World Partition config, HLOD, Data Layers, Level Instances, streaming optimization. Supersedes SD_13 §4.2 and earlier preliminary partition values. |
+| `SD_16_Player_Identity_Ending_Resonance.md` | Player Identity & Ending Resonance | ✅ Canonical (v1.0) | Origin wound arcs, Echo acknowledgment lines, ending resonance per origin. All six Origin Wound Matrix cells resolved. |
+| `SD_17_Enemy_Design_Encounter_Vocabulary.md` | Enemy Design & Encounter Vocabulary | ✅ Canonical (v1.0) | Enemy behavioral vocabulary, encounter design rules, teaching objectives. Companion to SD_07 (what players fight vs. how players fight). |
+| `SD_18_Onboarding_System_Introduction.md` | Onboarding & System Introduction | ✅ Canonical (v1.0) | System introduction schedule across all acts. Pacing for combat, economy, homestead, and companion tutorials. |
 | `COWORK_INSTRUCTIONS.md` | This File | ✅ Always current | Standing instructions for all Claude sessions. |
+
+**Amendment Files (canonical — extend their parent documents):**
+- `SD_03_Amendment_Ending_Stakes.md` — Extends SD_03 §6.4. Origin-specific Heart dialogue, Erevos confrontation beats, Fracture Core Override confrontation, Settlement Emergent Ending C conditional (Dara alive/dead).
+- `SD_03_Amendment_Act2_World_Events.md` — Extends SD_03 §4.5. Mandatory Act II world events triggered by player progress.
+- `SD_05_Amendment_Seraphine_Hostile_Floor.md` — Extends SD_05 §4.5. Defines Hostile Ally behavior, personal quest gating at Strained status, Act III behavior, Hollow Crown faction without Seraphine advocacy.
 
 **Supplemental/Archive Files (do not treat as canonical):**
 - `SD_-_Playable_Area_Detail.txt` — Draft source material for SD_08. Use as reference only.
@@ -92,7 +105,25 @@ These are locked decisions. Do not contradict them. Do not revert them. Do not p
 1. **Kael Thornwright** — Human, 32, Ironbound Vanguard Captain. Believes in order and protection of people. Preferred ending: Override.
 2. **Aelira Wynnroot** — Vaelari, Verdant Flame Seer. Partially responsible for the Severance. Carries guilt. Preferred ending: Guided Dissolution.
 3. **Maren Duskwell** — Independent (former Ashmar Reaver). Pragmatic survivor. Preferred ending: Guided Dissolution (most people survive).
-4. **Lady Seraphine Eltaryn** — House of the Hollow Crown. Can become ally, antagonist, or coerced ally depending on player choices. Variable preferred ending based on arc outcome.
+4. **Lady Seraphine Eltaryn** — House of the Hollow Crown. Three branch model — all branches result in party membership; Seraphine can **never permanently leave the party**:
+   - **Branch A (Reformed):** Confronts her inheritance, rebuilds from honesty. Preferred ending: Guided Dissolution.
+   - **Branch B (Hostile Ally):** Joins at Hostile tier (-20 to -39) through political exhaustion. Remains in-party but adversarial. Never reconciled or optionally reconciled late. Preferred ending: Override.
+   - **Branch C (Coerced):** Knows the truth but hasn't accepted it. Assists under conditions. Strained tier (0 to 19). Preferred ending: Override.
+
+### Companion Relationship System
+- **Seven relationship tiers** (SD_04 v1.2):
+  - Deep Bond (80–100), Trusted Ally (50–79), Professional (20–49), Strained (0–19), Cold (-1 to -19), Hostile (-20 to -39), Deeply Hostile (-40 to -100)
+- **There is no "Gone" state.** No companion can permanently leave the party. The "Gone" tier was removed as of Decision Memo 02 (2026-04-06).
+- Seraphine has 15 epilogue entries: 5 arc variants (Branch A reformed, Branch B hostile never-reconciled, Branch B hostile reconciled, Branch C coerced improved, Branch C coerced stagnant) × 3 endings.
+
+### Origin Traits (SD_02 Clarification)
+- Origin "stats" (Perception, Empathy, Adaptability, etc.) are **narrative traits**, NOT bonuses to SD_07's six mechanical attributes (STR, AGI, INT, AWA, END, SUR). They gate dialogue options and narrative branches only.
+- SD_02 labels these as `**Narrative Traits:**` (not "Stats").
+
+### Dara Conditional (SD_16 / SD_03 Amendment)
+- Settlement Emergent origin has a conditional Ending C resonance based on `quest_debt_dara_alive = TRUE/FALSE`.
+- Dara alive → resonance impression (tea scene in epilogue). Dara dead → authored silence (silent slot in epilogue).
+- This is the only origin with a binary quest-flag conditional in the ending system.
 
 ### Factions (Four Major)
 1. **Ironbound Vanguard** — Former Dominion military. Want to stabilize and permanently control the lattice. Led by Commander Aldric Hale (antagonistic to player's independence). Kael is their bridge.
@@ -105,7 +136,7 @@ These are locked decisions. Do not contradict them. Do not revert them. Do not p
 - **The Echo** — A consciousness fragment of Erevos deliberately separated before absorption — specifically Erevos's *doubt*. Lives in the player's relic. Grows from broken fragments (Act I) to fully articulate philosopher (Act III). Never tells the player what to do. If asked directly which ending to choose: *"I separated from Erevos because I doubted. If I knew the answer, I wouldn't have needed you."*
 - **The Consuming Consciousness** — The collective intelligence sealed in the Heart of the Lattice. Damaged, executing a corrupted decommissioning. Not evil — broken. Can be redirected, overridden, or completed on different terms.
 - **Varek Seven-Knives** — Reaver captain who activated the storm engine during the Severance. One of three people directly responsible for the catastrophe.
-- **Lady Seraphine Eltaryn** — Also directly responsible for the Severance (unsealed the Highland anchor). Her arc is the game's most variable — her ending state ranges from trusted reformed ally to imprisoned antagonist.
+- **Lady Seraphine Eltaryn** — Also directly responsible for the Severance (unsealed the Highland anchor). Her arc is the game's most variable — three branches (reformed ally, hostile ally, coerced ally), all resulting in party membership. She can never permanently leave the party.
 - **Seer Aelira Wynnroot** — Also directly responsible for the Severance (failed Wellspring ritual). Her guilt is the emotional engine of her companion arc.
 - **Commander Aldric Hale** — Vanguard garrison commander. Kael's superior. Represents institutional authority hardening into authoritarianism under crisis pressure.
 - **Maren Duskwell** — Recruited after Act I climax ("Fracture Point"). The only companion who cannot be recruited at a fixed story point — she must be approached in the aftermath.
@@ -274,10 +305,13 @@ Born from the Severance itself. Lattice energy crystallized around compatible bi
 - **Who:** House of the Hollow Crown. Young heir to a fallen empire. One of three people directly responsible for the Severance.
 - **Personality:** Brilliant. Manipulative. Genuinely convinced that she's right, which is more dangerous than cynical manipulation because she believes it.
 - **Core conflict:** Everything she knows about her family, her right to rule, and the Firstborn is a fabrication. The deeper she digs for proof of her legitimacy, the clearer the lie becomes. What she does when she can no longer deny this is the game's most consequential variable.
-- **Arc options:** Reformed ally (confronts her inheritance, rebuilds from honesty), antagonist (doubles down, pursues the Scepter, becomes a final-act obstacle), coerced ally (knows the truth but hasn't accepted it — assists under conditions).
+- **Arc options (three branches, all result in party membership):**
+  - **Branch A (Reformed):** Confronts her inheritance, rebuilds from honesty.
+  - **Branch B (Hostile Ally):** Joins at Hostile tier (-20 to -39) through political exhaustion. Remains in-party but adversarial.
+  - **Branch C (Coerced):** Knows the truth but hasn't accepted it. Assists under conditions at Strained tier (0 to 19).
 - **Relationship dynamic:** She will attempt to manage the player the way she manages everyone. The relationship deepens only when the player refuses to be managed and she finds that honest engagement more valuable than performance.
-- **Preferred ending:** Variable. Unreformed: Override (she wants control). Reformed: Guided Dissolution (she's learned to let go).
-- **Recruitment:** Act II only. Requires trust threshold and specific dialogue choices in "The Companion in the Dark." The only companion who can become an antagonist rather than an ally.
+- **Preferred ending:** Variable. Branch B/C: Override (she wants control). Branch A: Guided Dissolution (she's learned to let go).
+- **Recruitment:** Act II only. Requires trust threshold and specific dialogue choices in "The Companion in the Dark." Seraphine can never permanently leave the party — all branches result in party membership.
 
 ---
 
@@ -340,7 +374,7 @@ Theme: Knowledge and compromise.
 ### Act III — Judgment (Hours 40–55+)
 Theme: Conviction and cost.
 - Factions in open war. Lattice collapse accelerating.
-- Surface faction resolution missions (flexible order): "Chain of Command," "The Burning Circle," "The Reckoning of Seven-Knives," "The Crown Falls."
+- Surface faction resolution missions (flexible order): "Chain of Command," "The Burning Circle," "The Reckoning of Seven-Knives," "The Hollow Crown Reckoning."
 - "The Heart Road" — final dungeon, 4 stages.
 - Confrontation with Erevos and the Consuming Consciousness.
 - THE CHOICE: Ending A (Guided Dissolution), Ending B (Override), or Ending C (Severance Complete).
@@ -398,7 +432,7 @@ When working on this project, follow these rules in all tasks:
 
 ## SECTION 12: CURRENT PROJECT STATUS
 
-**As of March 2026:**
+**As of April 2026:**
 
 **Engine and pipeline confirmed:**
 - Target engine: **Unreal Engine 5.7**
@@ -407,20 +441,32 @@ When working on this project, follow these rules in all tasks:
 - Key UE5.7 features in use: Lumen (lighting), Nanite (environment geometry), MetaHuman-compatible character pipeline
 
 **Completed and locked:**
-- SD_01 through SD_07, SD_09, SD_10 — all canonical, all in the Design_Bible folder
-- Race naming ("Vaelari") — consistent across all documents (SD_05 corrected 2026-03-20)
+- SD_01 through SD_18 — all canonical, all in Design_Master_Plans folder
+- Three amendments canonical: SD_03 Amendment (Ending Stakes), SD_03 Amendment (Act II World Events), SD_05 Amendment (Seraphine Hostile Floor)
+- Race naming ("Vaelari") — consistent across all documents
 - Race/origin scope (3 races, 2 origins each, Ironkin/Drakelings as expansion-only) — consistent
-- Endings count (three: Guided Dissolution, Override, Severance Complete) — confirmed and propagated to SD_03 v2.1 and SD_10
+- Endings count (three: Guided Dissolution, Override, Severance Complete) — confirmed and propagated across all docs
+- Seraphine three-branch model (Decision Memo 02): Reformed / Hostile Ally / Coerced — all result in party membership. No "Gone" state for any companion.
+- SD_02 origin traits clarified as narrative traits (not mechanical attribute bonuses)
+- SD_12 launch scope limited to Phases 1–3, Opportunistic Bandit raids only (Decision Memo 03)
+- SD_16 v1.0 canonical — all six Origin Wound Matrix cells resolved
+- Full consistency audit completed 2026-04-06 across all documents
 
-**Immediate next tasks (prioritized):**
-1. ~~**Resolve Open Decision 1** (Act I finale location)~~ — ✅ RESOLVED 2026-03-20. North Wall confirmed. SD_03 already written around this location.
-2. ~~**Resolve Open Decision 2** (Rune/Shard terminology)~~ — ✅ RESOLVED 2026-03-20. "Relic Shards" / "Shard Combinations" adopted. All docs updated.
+**Resolved milestones (March 2026):**
+1. ~~**Resolve Open Decision 1** (Act I finale location)~~ — ✅ RESOLVED 2026-03-20. North Wall confirmed.
+2. ~~**Resolve Open Decision 2** (Rune/Shard terminology)~~ — ✅ RESOLVED 2026-03-20. "Relic Shards" / "Shard Combinations" adopted.
 3. ~~**Fix Act IV references**~~ — ✅ DONE 2026-03-20. SD_06, SD_07, SD_10 corrected.
-4. ~~**Build SD_08**~~ — ✅ EXISTS (v2.0). Section 9.3 rewritten 2026-03-20 with full alignment world states.
-5. ~~**SD_04 consistency pass**~~ — ✅ DONE 2026-03-20. Ending D content extracted to appendix. Three-ending structure enforced. Companion alignment reactions added (Section 6.3).
+4. ~~**Build SD_08**~~ — ✅ EXISTS (v2.0). Section 9.3 rewritten 2026-03-20.
+5. ~~**SD_04 consistency pass**~~ — ✅ DONE 2026-03-20. Three-ending structure enforced.
+
+**Resolved milestones (April 2026):**
+6. ~~**Decision Memo 01** (Origin Wound Matrix)~~ — ✅ RESOLVED 2026-04-06. All six cells finalized in SD_16 v1.0.
+7. ~~**Decision Memo 02** (Seraphine Branch B/C model)~~ — ✅ RESOLVED 2026-04-06. Option A adopted — Seraphine never leaves party. SD_03, SD_04, SD_05 updated.
+8. ~~**Decision Memo 03** (Homestead/Economy scope)~~ — ✅ RESOLVED 2026-04-06. SD_10, SD_12 scoped.
+9. ~~**Full consistency audit**~~ — ✅ DONE 2026-04-06. SD_02, SD_03, SD_04 updated. "The Crown Falls" mission replaced with "The Hollow Crown Reckoning." All stale Seraphine antagonist language removed.
 
 **Known document gaps:**
-- None. All open decisions resolved. All documents canonical.
+- `DECISION_01_Origin_Wound_Matrix.md` — referenced in session history but not yet created as a standalone file. Low priority; substance is captured in SD_16 v1.0.
 
 ---
 

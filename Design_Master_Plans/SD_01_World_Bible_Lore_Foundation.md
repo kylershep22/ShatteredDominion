@@ -305,7 +305,7 @@ The mark is not a blessing. It's a tool, built for a purpose, and that purpose i
 
 **Name:** Aethercrown (named for the lattice network beneath it — a name that predates the Dominion)
 **Total Area:** Approximately 2,400 km² (comparable to a large European island)
-**Playable Area (Launch):** Severant Vale (~100 km²)
+**Playable Area (Launch):** Severant Vale (~20 km²)
 **Number of Regions:** Seven
 
 The non-playable regions are designed in full as lore, horizon landmarks, NPC reference points, economic influences, and expansion-ready content. Players should feel the continent is real even though they can only walk through a fraction of it.
